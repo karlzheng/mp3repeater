@@ -137,6 +137,7 @@ public class RingdroidEditActivity extends Activity
     private int mFlingVelocity;
     private int mPlayStartMsec;
     private int mPlayStartOffset;
+    private int mPlayLastOffset;
     private int mPlayEndMsec;
     private Handler mHandler;
     private boolean mIsPlaying;
@@ -393,7 +394,7 @@ public class RingdroidEditActivity extends Activity
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_SPACE) {
-            onPlay(mStartPos);
+            onPlay(mStartPos, 0);
             return true;
         }
 
@@ -449,7 +450,7 @@ public class RingdroidEditActivity extends Activity
                     handlePause();
                 }
             } else {
-                onPlay((int)(mTouchStart + mOffset));
+                onPlay((int)(mTouchStart + mOffset), 0);
             }
         }
     }
@@ -492,18 +493,29 @@ public class RingdroidEditActivity extends Activity
         updateDisplay();
     }
 
-    public void markerTouchEnd(MarkerView marker) {
-        mTouchDragging = false;
-        if (marker == mStartMarker) {
-            setOffsetGoalStart();
-        } else {
-            setOffsetGoalEnd();
-        }
-    }
+	public void markerTouchEnd(MarkerView marker) {
+		mTouchDragging = false;
+		if (marker == mStartMarker) {
+			setOffsetGoalStart();
+			updateDisplay();
+			if (mIsPlaying) {
+				mPlayLastOffset = mPlayer.getCurrentPosition();
+				handlePause();
+				onPlay(mStartPos, 0);
+			}
+		} else {
+			setOffsetGoalEnd();
+			updateDisplay();
+			if (mIsPlaying) {
+				mPlayLastOffset = mPlayer.getCurrentPosition();
+				handlePause();
+				onPlay(mStartPos, mPlayLastOffset);
+			}
+		}
+	}
 
     public void markerLeft(MarkerView marker, int velocity) {
         mKeyDown = true;
-
         if (marker == mStartMarker) {
             int saveStart = mStartPos;
             mStartPos = trap(mStartPos - velocity);
@@ -518,10 +530,8 @@ public class RingdroidEditActivity extends Activity
             } else {
                 mEndPos = trap(mEndPos - velocity);
             }
-
             setOffsetGoalEnd();
         }
-
         updateDisplay();
     }
 
@@ -1066,7 +1076,7 @@ public class RingdroidEditActivity extends Activity
         enableDisableButtons();
     }
 
-    private synchronized void onPlay(int startPosition) {
+    private synchronized void onPlay(int startPosition, int seekPos) {
         if (mIsPlaying) {
             handlePause();
             return;
@@ -1126,6 +1136,11 @@ public class RingdroidEditActivity extends Activity
             if (mPlayStartOffset == 0) {
                 mPlayer.seekTo(mPlayStartMsec);
             }
+            
+            if (seekPos != 0) {
+            	mPlayer.seekTo(seekPos);
+            }
+            
             mPlayer.start();
 			/*updateDisplay();*/
             enableDisableButtons();
@@ -1613,7 +1628,8 @@ public class RingdroidEditActivity extends Activity
 
     private OnClickListener mPlayListener = new OnClickListener() {
             public void onClick(View sender) {
-                onPlay(mStartPos);
+                onPlay(mStartPos, 0);
+		updateDisplay();
             }
         };
 
