@@ -1,0 +1,16 @@
+bin/
+gen/
+*.apk
+*.ap_
+*.class
+*.dex
+*.swp
+R.java
+cscope.files
+cscope.in.out
+cscope.out
+cscope.po.out
+filenametags
+fullfilenametags
+tags
+.svn

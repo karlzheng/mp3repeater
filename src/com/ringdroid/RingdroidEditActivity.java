@@ -141,6 +141,9 @@ public class RingdroidEditActivity extends Activity
     private int mPlayEndMsec;
     private Handler mHandler;
     private boolean mIsPlaying;
+    private boolean mIsStartEndPosSame;
+		    
+    private boolean mIsFileLoaded;
     private MediaPlayer mPlayer;
     private boolean mCanSeekAccurately;
     private boolean mTouchDragging;
@@ -217,6 +220,8 @@ public class RingdroidEditActivity extends Activity
         mRecordingUri = null;
         mPlayer = null;
         mIsPlaying = false;
+        mIsFileLoaded = false;
+	mIsStartEndPosSame = false;
 
         Intent intent = getIntent();
 
@@ -256,6 +261,8 @@ public class RingdroidEditActivity extends Activity
         if (!mFilename.equals("record")) {
             loadFromFile();
         }
+        
+	mIsFileLoaded = true;
     }
 
     /** Called with the activity is finally destroyed. */
@@ -474,6 +481,11 @@ public class RingdroidEditActivity extends Activity
         mTouchStart = x;
         mTouchInitialStartPos = mStartPos;
         mTouchInitialEndPos = mEndPos;
+	if (mStartPos == mEndPos) {
+	    mIsStartEndPosSame = true;
+	} else {
+	    mIsStartEndPosSame = false;
+	}
     }
 
     public void markerTouchMove(MarkerView marker, float x) {
@@ -499,7 +511,6 @@ public class RingdroidEditActivity extends Activity
 			setOffsetGoalStart();
 			updateDisplay();
 			if (mIsPlaying) {
-				mPlayLastOffset = mPlayer.getCurrentPosition();
 				handlePause();
 				onPlay(mStartPos, 0);
 			}
@@ -510,6 +521,13 @@ public class RingdroidEditActivity extends Activity
 				mPlayLastOffset = mPlayer.getCurrentPosition();
 				handlePause();
 				onPlay(mStartPos, mPlayLastOffset);
+			} else {
+			    if (mIsFileLoaded) {
+				//if (mStartPos == mEndPos) {
+				if (mIsStartEndPosSame) {
+				    onPlay(mStartPos, mPlayLastOffset);
+				}
+			    }
 			}
 		}
 	}
