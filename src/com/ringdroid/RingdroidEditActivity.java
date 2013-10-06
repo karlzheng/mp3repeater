@@ -523,7 +523,6 @@ public class RingdroidEditActivity extends Activity
 				onPlay(mStartPos, mPlayLastOffset);
 			} else {
 			    if (mIsFileLoaded) {
-				//if (mStartPos == mEndPos) {
 				if (mIsStartEndPosSame) {
 				    onPlay(mStartPos, mPlayLastOffset);
 				}
@@ -914,7 +913,7 @@ public class RingdroidEditActivity extends Activity
                 else
                     offsetDelta = 0;
 
-                mOffset += offsetDelta;
+                //mOffset += offsetDelta;
             }
         }
 
