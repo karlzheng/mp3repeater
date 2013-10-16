@@ -17,11 +17,11 @@
  */
 -->
 <resources>
-  <string name="ringdroid_app_name">Ringdroid</string>
+  <string name="ringdroid_app_name">mp3Repeater</string>
   <!--
      Actividad principal/seleccion multimedia
      -->
-  <string name="main_activity_label">Ringdroid</string>
+  <string name="main_activity_label">mp3Repeater</string>
   <string name="button_start_record_activity">Registro nuevo</string>
   <string name="sdcard_readonly">La tarjeta SD es de sólo lectura y Ringdroid precisa que sea de escritura.</string>
   <string name="no_sdcard">Ringdroid sólo puede funcionar con una arjeta SD insertada.</string>

@@ -17,11 +17,11 @@
  */
 -->
 <resources>
-  <string name="ringdroid_app_name">Ringdroid</string>
+  <string name="ringdroid_app_name">mp3Repeater</string>
   <!--
      Main / media select activity
      -->
-  <string name="main_activity_label">Ringdroid</string>
+  <string name="main_activity_label">mp3Repeater</string>
   <string name="button_start_record_activity">新录制</string>
   <string name="sdcard_readonly">抱歉，SD卡映射为只读，而Ringdroid需要其可写入。</string>
   <string name="no_sdcard">抱歉，Ringdroid只在插入SD卡时运行。</string>

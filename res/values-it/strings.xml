@@ -3,11 +3,11 @@
 
 <resources>
 
-    <string name="ringdroid_app_name">Ringdroid</string>
+    <string name="ringdroid_app_name">mp3Repeater</string>
 
     <!--      Main / media select activity      -->
 
-    <string name="main_activity_label">Ringdroid</string>
+    <string name="main_activity_label">mp3Repeater</string>
 
     <string name="button_start_record_activity">Registra nuovo</string>
 
