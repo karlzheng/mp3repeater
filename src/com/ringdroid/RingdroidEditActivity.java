@@ -1210,16 +1210,20 @@ public class RingdroidEditActivity extends Activity
         switch(mNewFileKind) {
         default:
         case FileSaveDialog.FILE_KIND_MUSIC:
-            parentdir = "/sdcard/media/audio/music";
+            //parentdir = "/sdcard/media/audio/music";
+            parentdir = "/sdcard/aaaa";
             break;
         case FileSaveDialog.FILE_KIND_ALARM:
             parentdir = "/sdcard/media/audio/alarms";
+            parentdir = "/sdcard/aaaa";
             break;
         case FileSaveDialog.FILE_KIND_NOTIFICATION:
             parentdir = "/sdcard/media/audio/notifications";
+            parentdir = "/sdcard/aaaa";
             break;
         case FileSaveDialog.FILE_KIND_RINGTONE:
-            parentdir = "/sdcard/media/audio/ringtones";
+            //parentdir = "/sdcard/media/audio/ringtones";
+        	parentdir = "/sdcard/aaaa";
             break;
         }
 
@@ -1375,7 +1379,8 @@ public class RingdroidEditActivity extends Activity
         String artist = "" + getResources().getText(R.string.artist_name);
 
         ContentValues values = new ContentValues();
-        values.put(MediaStore.MediaColumns.DATA, outPath);
+	values.put(MediaStore.MediaColumns.DATA, outPath);
+        //values.put("/sdcard/aaaa", outPath);
         values.put(MediaStore.MediaColumns.TITLE, title.toString());
         values.put(MediaStore.MediaColumns.SIZE, fileSize);
         values.put(MediaStore.MediaColumns.MIME_TYPE, mimeType);

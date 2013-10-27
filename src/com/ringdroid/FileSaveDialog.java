@@ -94,8 +94,8 @@ public class FileSaveDialog extends Dialog {
             android.R.layout.simple_spinner_dropdown_item);
         mTypeSpinner = (Spinner) findViewById(R.id.ringtone_type);
         mTypeSpinner.setAdapter(adapter);
-        mTypeSpinner.setSelection(FILE_KIND_RINGTONE);
-        mPreviousSelection = FILE_KIND_RINGTONE;
+        mTypeSpinner.setSelection(FILE_KIND_MUSIC);
+        mPreviousSelection = FILE_KIND_MUSIC;
 
         setFilenameEditBoxFromName(false);
 
