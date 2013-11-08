@@ -1,0 +1,35 @@
+commit ae55bc9bbe82adf906e8683f1475a0be1b2e8e22
+Author: kangliang.zkl <kangliang.zkl@alibaba-inc.com>
+Date:   Sun Oct 27 15:37:06 2013 +0800
+
+    set default waveform scale level to 1.
+
+commit 5f2ae609437ba72beaf18441270cd344df0e01cf
+Author: kangliang.zkl <kangliang.zkl@alibaba-inc.com>
+Date:   Wed Oct 16 18:12:21 2013 +0800
+
+    change app name from Ringdroid=>mp3Repeater
+
+commit 689573e2dfcb3dd3e8662cda3e6825edbeff727b
+Author: karlzheng <zhengkarl@gmail.com>
+Date:   Sun Oct 6 14:25:39 2013 +0800
+
+    when play, don't move the waveform.
+
+commit 4e8a9ee8f86cc6450e95295b8aba6261ff4f7b70
+Author: karlzheng <zhengkarl@gmail.com>
+Date:   Sun Oct 6 13:44:19 2013 +0800
+
+    if mMarkEnd is at same pos with mMarkStart, when mMarkEnd lefts mMarkStart, auto play
+
+commit 5b1641fd7ba430b360c4bfca277690d2c29a3d43
+Author: karlzheng <zhengkarl@gmail.com>
+Date:   Sat Oct 5 21:40:27 2013 +0800
+
+    modify.
+
+commit 7a1f02d60f5a7250abba5827bc8bfd7929dcb8f6
+Author: karlzheng <zhengkarl@gmail.com>
+Date:   Sat Oct 5 17:52:26 2013 +0800
+
+    init
