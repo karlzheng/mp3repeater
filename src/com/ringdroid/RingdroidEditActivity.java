@@ -524,7 +524,7 @@ public class RingdroidEditActivity extends Activity
 			} else {
 			    if (mIsFileLoaded) {
 				if (mIsStartEndPosSame) {
-				    onPlay(mStartPos, mPlayLastOffset);
+				    onPlay(mStartPos, 0);
 				}
 			    }
 			}
