@@ -36,10 +36,12 @@ import org.apache.http.params.HttpParams;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
@@ -252,6 +254,8 @@ public class RingdroidEditActivity extends Activity
         }
         
 	mIsFileLoaded = true;
+            
+	registerHeadsetPlugReceiver();  
     }
 
     /** Called with the activity is finally destroyed. */
@@ -277,7 +281,15 @@ public class RingdroidEditActivity extends Activity
         }
 
         super.onDestroy();
+        
+        unregisterReceiver(headsetPlugReceiver); 
     }
+
+    private void registerHeadsetPlugReceiver() {  
+        IntentFilter intentFilter = new IntentFilter();  
+        intentFilter.addAction("android.intent.action.HEADSET_PLUG");  
+        registerReceiver(headsetPlugReceiver, intentFilter);  
+    }  
 
     /** Called with an Activity we started with an Intent returns. */
     @Override
@@ -1154,6 +1166,11 @@ public class RingdroidEditActivity extends Activity
             showFinalAlert(e, R.string.play_error);
             return;
         }
+    }
+    
+    public synchronized void onStop(int startPosition, int seekPos) {
+	handlePause();
+	updateDisplay();
     }
 
     /**
@@ -2086,4 +2103,19 @@ public class RingdroidEditActivity extends Activity
             e.printStackTrace();
         }
     }
+    
+	public BroadcastReceiver headsetPlugReceiver = new BroadcastReceiver() {
+		// private static final String TAG = "HeadsetPlugReceiver";
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			if (intent.hasExtra("state")) {
+				if (intent.getIntExtra("state", 0) == 0) {
+					onStop(0, 0);
+				} else if (intent.getIntExtra("state", 0) == 1) {
+					Toast.makeText(context, "headset connected",
+							Toast.LENGTH_LONG).show();
+				}
+			}
+		}
+	};
 }
