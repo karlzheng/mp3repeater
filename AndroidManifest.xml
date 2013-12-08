@@ -69,7 +69,10 @@
         <activity android:name="ChooseContactActivity"
                   android:configChanges="orientation|keyboardHidden">
         </activity>
-
+        
+        <activity android:name="lyricActivity"
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
     </application>
 
 </manifest>

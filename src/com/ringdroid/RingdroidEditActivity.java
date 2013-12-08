@@ -62,9 +62,11 @@ import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.GestureDetector;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AbsoluteLayout;
@@ -113,6 +115,9 @@ public class RingdroidEditActivity extends Activity
     private ImageButton mZoomInButton;
     private ImageButton mZoomOutButton;
     private ImageButton mSaveButton;
+    
+    private GestureDetector mGestureDetector;
+
     private boolean mKeyDown;
     private String mCaption = "";
     private int mWidth;
@@ -254,8 +259,19 @@ public class RingdroidEditActivity extends Activity
         }
         
 	mIsFileLoaded = true;
-            
+	
 	registerHeadsetPlugReceiver();  
+	
+	mGestureDetector = new GestureDetector(
+	        getBaseContext(),
+		new GestureDetector.SimpleOnGestureListener() {
+		    public boolean onFling(
+			        MotionEvent e1, MotionEvent e2, float vx, float vy) {
+			//mListener.waveformFling(vx);
+			Log.i("Ringdroid", "onFling");
+			return true;
+		    }
+		});
     }
 
     /** Called with the activity is finally destroyed. */
@@ -1650,7 +1666,13 @@ public class RingdroidEditActivity extends Activity
 
     private OnClickListener mSaveListener = new OnClickListener() {
             public void onClick(View sender) {
-                onSave();
+                //onSave();
+				Intent intent = new Intent();
+				intent.putExtra("mFilename", mFilename);
+				intent.setClass(RingdroidEditActivity.this, lyricActivity.class);
+				//Jump to lyric activity
+				startActivity(intent);
+				//RingdroidEditActivity.this.finish();
             }
         };
 

@@ -17,18 +17,16 @@
 package com.ringdroid;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.graphics.DashPathEffect;
+import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
 import com.ringdroid.soundfile.CheapSoundFile;
-
-import java.util.Map;
 
 /**
  * WaveformView is an Android view that displays a visual representation
@@ -127,6 +125,7 @@ public class WaveformView extends View {
 		new GestureDetector.SimpleOnGestureListener() {
 		    public boolean onFling(
 			        MotionEvent e1, MotionEvent e2, float vx, float vy) {
+			Log.i("Ringdroid", "WaveformView onFling");
 			mListener.waveformFling(vx);
 			return true;
 		    }
