@@ -560,11 +560,20 @@ public class RingdroidSelectActivity
     }
 	
 	public Cursor searchMySDCardMusic() {
+		String str = "";
+		File dir = null;
+		if (Environment.getExternalStorageState().equals(
+				Environment.MEDIA_MOUNTED)) {
+			dir = Environment.getExternalStorageDirectory();
+		}
 		ContentResolver resolver = this.getContentResolver();
 		String [] project = {"*"};
 		Cursor cursor;
-		//String str = "%/sdcard/Music/%.mp3";
-		String str = "%/sdcard/aaaa/%.mp3";
+		if (dir != null) {
+		    str = "%" + dir + "/aaaa/%.mp3";
+		} else {
+		    str = "%/sdcard/aaaa/%.mp3";
+		}
 		cursor = resolver.query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, project, "_data"+" LIKE "+'"'+str+'"', null, null);
 		Log.d("@@@", "cursor = " + cursor);
 		if (cursor != null) {

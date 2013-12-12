@@ -52,6 +52,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
@@ -1228,65 +1229,74 @@ public class RingdroidEditActivity extends Activity
     }
 
     private String makeRingtoneFilename(CharSequence title, String extension) {
-        String parentdir;
-        switch(mNewFileKind) {
-        default:
-        case FileSaveDialog.FILE_KIND_MUSIC:
-            //parentdir = "/sdcard/media/audio/music";
-            parentdir = "/sdcard/aaaa";
-            break;
-        case FileSaveDialog.FILE_KIND_ALARM:
-            parentdir = "/sdcard/media/audio/alarms";
-            parentdir = "/sdcard/aaaa";
-            break;
-        case FileSaveDialog.FILE_KIND_NOTIFICATION:
-            parentdir = "/sdcard/media/audio/notifications";
-            parentdir = "/sdcard/aaaa";
-            break;
-        case FileSaveDialog.FILE_KIND_RINGTONE:
-            //parentdir = "/sdcard/media/audio/ringtones";
-        	parentdir = "/sdcard/aaaa";
-            break;
-        }
+	String parentdir;
+	File dir = null;
+	if (Environment.getExternalStorageState().equals(
+		    Environment.MEDIA_MOUNTED)) {
+	    dir = Environment.getExternalStorageDirectory();
+		    }
+	switch(mNewFileKind) {
+	    /*
+	     *case FileSaveDialog.FILE_KIND_MUSIC:
+	     *    parentdir = "/sdcard/media/audio/music";
+	     *    break;
+	     *case FileSaveDialog.FILE_KIND_ALARM:
+	     *    parentdir = "/sdcard/media/audio/alarms";
+	     *    break;
+	     *case FileSaveDialog.FILE_KIND_NOTIFICATION:
+	     *    parentdir = "/sdcard/media/audio/notifications";
+	     *    break;
+	     *case FileSaveDialog.FILE_KIND_RINGTONE:
+	     *    parentdir = "/sdcard/media/audio/ringtones";
+	     *    break;
+	     */
+	    default:
+		if (dir != null) {
+		    parentdir = dir + "/aaaa";
+		} else {
+		    parentdir = "/sdcard/aaaa";
+		}
+		break;
+	}
 
-        // Create the parent directory
-        File parentDirFile = new File(parentdir);
-        parentDirFile.mkdirs();
+	// Create the parent directory
+	File parentDirFile = new File(parentdir);
+	parentDirFile.mkdirs();
 
-        // If we can't write to that special path, try just writing
-        // directly to the sdcard
-        if (!parentDirFile.isDirectory()) {
-            parentdir = "/sdcard";
-        }
+	// If we can't write to that special path, try just writing
+	// directly to the sdcard
+	if (!parentDirFile.isDirectory()) {
+	    parentdir = "/sdcard";
+	}
 
-        // Turn the title into a filename
-        String filename = "";
-        for (int i = 0; i < title.length(); i++) {
-            if (Character.isLetterOrDigit(title.charAt(i))) {
-                filename += title.charAt(i);
-            }
-        }
+	// Turn the title into a filename
+	String filename = "";
+	for (int i = 0; i < title.length(); i++) {
+	    if (Character.isLetterOrDigit(title.charAt(i))) {
+		filename += title.charAt(i);
+	    }
+	}
 
-        // Try to make the filename unique
-        String path = null;
-        for (int i = 0; i < 100; i++) {
-            String testPath;
-            if (i > 0)
-                testPath = parentdir + "/" + filename + i + extension;
-            else
-                testPath = parentdir + "/" + filename + extension;
+	// Try to make the filename unique
+	String path = null;
+	for (int i = 0; i < 100; i++) {
+	    String testPath;
+	    if (i > 0)
+		testPath = parentdir + "/" + filename + i + extension;
+	    else
+		testPath = parentdir + "/" + filename + extension;
 
-            try {
-                RandomAccessFile f = new RandomAccessFile(
-                    new File(testPath), "r");
-            } catch (Exception e) {
-                // Good, the file didn't exist
-                path = testPath;
-                break;
-            }
-        }
+	    try {
+		RandomAccessFile f = new RandomAccessFile(
+			new File(testPath), "r");
+	    } catch (Exception e) {
+		// Good, the file didn't exist
+		path = testPath;
+		break;
+	    }
+	}
 
-        return path;
+	return path;
     }
 
     private void saveRingtone(final CharSequence title) {
