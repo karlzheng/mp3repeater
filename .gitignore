@@ -1,13 +1,16 @@
+/app/build/
+/build/android-profile/
+
 # IntelliJ IDEA
-.idea
-*.iml
+#.idea
+#*.iml
 
 # Gradle
 #.gradle
-build
+#build
 
 # Local configuration file (sdk path, etc)
-local.properties
+#local.properties
 
 # Mac system files
 .DS_Store
@@ -21,9 +24,6 @@ local.properties
 /fullfilenametags
 /tags
 /.gitignore
-
-/build/
-/app/build/
 
 *.swp
 *.pyc
