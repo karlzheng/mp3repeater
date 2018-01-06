@@ -16,6 +16,7 @@
 
 package com.ringdroid;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.ContentResolver;
@@ -199,6 +200,7 @@ public class RingdroidSelectActivity
         }
     }
 
+    @SuppressLint("ResourceType")
     private void setSoundIconFromCursor(ImageView view, Cursor cursor) {
         if (0 != cursor.getInt(cursor.getColumnIndexOrThrow(
                 MediaStore.Audio.Media.IS_RINGTONE))) {
