@@ -1,3 +1,0 @@
-1. mp3 script listen and editor activity;
-2. Lyric parser;
-3. use Fling instead of button click.
