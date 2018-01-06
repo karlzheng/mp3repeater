@@ -572,9 +572,9 @@ public class RingdroidSelectActivity
 		String [] project = {"*"};
 		Cursor cursor;
 		if (dir != null) {
-		    str = "%" + dir + "/aaaa/%.mp3";
+		    str = "%" + dir + "/Music/%.mp3";
 		} else {
-		    str = "%/sdcard/aaaa/%.mp3";
+		    str = "%/sdcard/Music/%.mp3";
 		}
 		cursor = resolver.query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, project, "_data"+" LIKE "+'"'+str+'"', null, null);
 		Log.d("@@@", "cursor = " + cursor);
