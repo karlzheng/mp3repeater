@@ -423,6 +423,26 @@ public class RingdroidEditActivity extends Activity
             return true;
         }
 
+//        if (keyCode == KeyEvent.KEYCODE_NEXT_SONG) {
+//            Log.e("Ringdroid", "keyCode = KEYCODE_VOLUME_UP");
+//            return true;
+//        }
+
+        //KEY_PREVIOUSSONG
+//        KEYCODE_ENTER
+//        KEYCODE_MINUS XM:LEFT
+//        KEYCODE_EQUALS XM:RIGHT
+//        KEYCODE_DEL  XIAOMI:UP
+//        KEYCODE_RIGHT_BRACKET XM:DOWN
+
+        if (keyCode ==  KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE || keyCode ==  KeyEvent.KEYCODE_ENTER) {
+            Log.e("Ringdroid", "keyCode = KEYCODE_MEDIA_PLAY_PAUSE");
+            onPlay(mStartPos, 0);
+            return true;
+        }
+
+        Log.e("Ringdroid", "keyCode = " + keyCode);
+
         return super.onKeyDown(keyCode, event);
     }
 
@@ -554,16 +574,23 @@ public class RingdroidEditActivity extends Activity
         if (marker == mStartMarker) {
             int saveStart = mStartPos;
             mStartPos = trap(mStartPos - velocity);
-            mEndPos = trap(mEndPos - (saveStart - mStartPos));
+            //mEndPos = trap(mEndPos - (saveStart - mStartPos));
             setOffsetGoalStart();
         }
 
         if (marker == mEndMarker) {
-            if (mEndPos == mStartPos) {
-                mStartPos = trap(mStartPos - velocity);
-                mEndPos = mStartPos;
-            } else {
-                mEndPos = trap(mEndPos - velocity);
+//            if (mEndPos == mStartPos) {
+//                mStartPos = trap(mStartPos - velocity);
+//                mEndPos = mStartPos;
+//            } else {
+//                mEndPos = trap(mEndPos - velocity);
+//            }
+            mEndPos = trap(mEndPos - velocity);
+            if (mEndPos < 0) {
+                mEndPos = 0;
+            }
+            if (mStartPos > mEndPos) {
+                mStartPos = mEndPos;
             }
             setOffsetGoalEnd();
         }
@@ -578,10 +605,11 @@ public class RingdroidEditActivity extends Activity
             mStartPos += velocity;
             if (mStartPos > mMaxPos)
                 mStartPos = mMaxPos;
-            mEndPos += (mStartPos - saveStart);
-            if (mEndPos > mMaxPos)
-                mEndPos = mMaxPos;
-
+//            mEndPos += (mStartPos - saveStart);
+//            if (mEndPos > mMaxPos)
+//                mEndPos = mMaxPos;
+            if (mEndPos < mStartPos)
+                mEndPos = mStartPos;
             setOffsetGoalStart();
         }
 
@@ -1163,7 +1191,8 @@ public class RingdroidEditActivity extends Activity
             mPlayer.setOnCompletionListener(new OnCompletionListener() {
                     public synchronized void onCompletion(MediaPlayer arg0) {
 						/*handlePause();*/
-						mPlayer.start();
+                        enableDisableButtons();
+                        mPlayer.start();
                     }
                 });
             mIsPlaying = true;
