@@ -1,20 +1,20 @@
-/app/build/
-/build/android-profile/
-
-# IntelliJ IDEA
-.idea/
-#*.iml
-
-# Gradle
-.gradle/
-#build
-
-# Local configuration file (sdk path, etc)
-#local.properties
-
-# Mac system files
+build.xml
+bin
+gen
+out
+default.properties
+local.properties
+proguard.cfg
+.classpath
+.project
+project.properties
+.idea
+*.iml
+*.apk
+.gradle
+build
+app/build
 .DS_Store
-.gitattributes
 
 /cscope.files
 /cscope.in.out

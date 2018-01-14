@@ -597,32 +597,54 @@ public class RingdroidEditActivity extends Activity
         updateDisplay();
     }
 
-    public void markerRight(MarkerView marker, int velocity) {
-        mKeyDown = true;
-
-        if (marker == mStartMarker) {
-            int saveStart = mStartPos;
-            mStartPos += velocity;
-            if (mStartPos > mMaxPos)
-                mStartPos = mMaxPos;
-//            mEndPos += (mStartPos - saveStart);
+//    public void markerRight(MarkerView marker, int velocity) {
+//        mKeyDown = true;
+//
+//        if (marker == mStartMarker) {
+//            int saveStart = mStartPos;
+//            mStartPos += velocity;
+//            if (mStartPos > mMaxPos)
+//                mStartPos = mMaxPos;
+////            mEndPos += (mStartPos - saveStart);
+////            if (mEndPos > mMaxPos)
+////                mEndPos = mMaxPos;
+//            if (mEndPos < mStartPos)
+//                mEndPos = mStartPos;
+//            setOffsetGoalStart();
+//        }
+//
+//        if (marker == mEndMarker) {
+//            mEndPos += velocity;
 //            if (mEndPos > mMaxPos)
 //                mEndPos = mMaxPos;
-            if (mEndPos < mStartPos)
-                mEndPos = mStartPos;
-            setOffsetGoalStart();
-        }
+//
+//            setOffsetGoalEnd();
+//        }
+//
+//        updateDisplay();
+//    }
 
-        if (marker == mEndMarker) {
-            mEndPos += velocity;
-            if (mEndPos > mMaxPos)
-                mEndPos = mMaxPos;
+	public void markerRight(MarkerView marker, int velocity) {
+		mKeyDown = true;
+	   mStartPos = mWaveformView.findNextStart(mEndPos);
+		if (mStartPos > mMaxPos)
+			mStartPos = mMaxPos;
+		setOffsetGoalStart();
 
-            setOffsetGoalEnd();
-        }
+	   mEndPos = mStartPos + 1;
+		
+	   if (mEndPos > mMaxPos)
+			mEndPos = mMaxPos;
 
-        updateDisplay();
-    }
+	   mEndPos = mWaveformView.findNextEnd(mEndPos);
+
+		if (mEndPos > mMaxPos)
+			mEndPos = mMaxPos;
+
+		setOffsetGoalEnd();
+
+		updateDisplay();
+	}
 
     public void markerEnter(MarkerView marker) {
     }
@@ -1206,7 +1228,7 @@ public class RingdroidEditActivity extends Activity
             }
             
             mPlayer.start();
-			/*updateDisplay();*/
+			updateDisplay();
             enableDisableButtons();
         } catch (Exception e) {
             showFinalAlert(e, R.string.play_error);

@@ -73,6 +73,10 @@ public class WaveformView extends View {
     private int mSelectionEnd;
     private int mPlaybackPos;
     private float mDensity;
+    private int[] mframeGains;
+	double[] heights;
+
+    private int mNumFrames;
     private WaveformListener mListener;
     private GestureDetector mGestureDetector;
     private boolean mInitialized;
@@ -145,23 +149,70 @@ public class WaveformView extends View {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-	if (mGestureDetector.onTouchEvent(event)) {
-	    return true;
-	}
+		if (mGestureDetector.onTouchEvent(event)) {
+			return true;
+		}
+		/*Log.e("WaveformView", "mNumFrames: " + mNumFrames);*/
+		Log.e("WaveformView", "mNumFrames: " + mNumFrames);
 
-        switch(event.getAction()) {
-        case MotionEvent.ACTION_DOWN:
-            mListener.waveformTouchStart(event.getX());
-            break;
-        case MotionEvent.ACTION_MOVE:
-            mListener.waveformTouchMove(event.getX());
-            break;
-        case MotionEvent.ACTION_UP:
-            mListener.waveformTouchEnd();
-            break;
-        }
+		switch(event.getAction()) {
+		case MotionEvent.ACTION_DOWN:
+			mListener.waveformTouchStart(event.getX());
+			break;
+		case MotionEvent.ACTION_MOVE:
+			mListener.waveformTouchMove(event.getX());
+			break;
+		case MotionEvent.ACTION_UP:
+			mListener.waveformTouchEnd();
+			break;
+		}
         return true;
     }
+    
+	public int findNextStart(int mStartPos) {
+		int pos = mStartPos;
+
+		while (pos < mNumFrames - 2) {
+			if (heights[pos] < 0.01) {
+				if (heights[pos + 1] < 0.01) {
+					break;
+				} else {
+					++pos;
+				}
+			} 
+			++pos;
+		}
+		
+		while (pos < mNumFrames - 2) {
+			if (heights[pos] > 0.1) {
+				if (heights[pos + 1] > 0.1) {
+					break;
+				} else {
+					++pos;
+				}
+			} 
+			++pos;
+		}
+
+		return pos;
+	}
+
+    public int findNextEnd(int mEndPos) {
+		int pos = mEndPos;
+
+		while (pos < mNumFrames - 2) {
+			if (heights[pos] < 0.01) {
+				if (heights[pos + 1] < 0.01) {
+					break;
+				} else {
+					++pos;
+				}
+			} 
+			++pos;
+		}
+
+		return pos;
+	}
 
     public void setSoundFile(CheapSoundFile soundFile) {
         mSoundFile = soundFile;
@@ -169,6 +220,9 @@ public class WaveformView extends View {
         mSamplesPerFrame = mSoundFile.getSamplesPerFrame();
         computeDoublesForAllZoomLevels();
         mHeightsAtThisZoomLevel = null;
+
+        mframeGains = mSoundFile.getFrameGains();
+        mNumFrames = mSoundFile.getNumFrames();
     }
 
     public boolean isInitialized() {
@@ -486,7 +540,8 @@ public class WaveformView extends View {
         }
 
         // Compute the heights
-        double[] heights = new double[numFrames];
+        /*double[] heights = new double[numFrames];*/
+        heights = new double[numFrames];
         double range = maxGain - minGain;
         for (int i = 0; i < numFrames; i++) {
             double value = (smoothedGains[i] * scaleFactor - minGain) / range;

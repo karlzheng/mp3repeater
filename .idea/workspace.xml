@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f3bc5c-0aa5-40fe-9bd9-ce1ab8d815fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,190 +50,179 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mp3repeater" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RingdroidEditActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1832">
-              <caret line="914" column="37" lean-forward="false" selection-start-line="914" selection-start-column="26" selection-end-line="914" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7995#8016#0" expanded="true" />
-                <element signature="e#9071#9096#0" expanded="true" />
-                <element signature="e#9268#9293#0" expanded="true" />
-                <element signature="e#11935#11953#0" expanded="true" />
-                <element signature="e#12042#12061#0" expanded="true" />
-                <element signature="e#12151#12170#0" expanded="true" />
-                <element signature="e#19662#19682#0" expanded="true" />
-                <element signature="e#19708#19727#0" expanded="true" />
-                <element signature="e#19760#19784#0" expanded="true" />
-                <element signature="e#23725#23757#0" expanded="true" />
-                <element signature="e#24808#25854#0" expanded="true" />
-                <element signature="e#25637#25680#0" expanded="true" />
-                <element signature="e#25853#25854#0" expanded="true" />
-                <element signature="e#26499#26585#0" expanded="true" />
-                <element signature="e#26654#26741#0" expanded="true" />
-                <element signature="e#27789#27832#0" expanded="true" />
-                <element signature="e#29191#29238#0" expanded="true" />
-                <element signature="e#31249#31294#0" expanded="true" />
-                <element signature="e#31393#31436#0" expanded="true" />
-                <element signature="e#33992#34029#0" expanded="true" />
-                <element signature="e#34171#34208#0" expanded="true" />
-                <element signature="e#39127#39146#0" expanded="true" />
-                <element signature="e#39882#39934#0" expanded="true" />
-                <element signature="e#40082#40134#0" expanded="true" />
-                <element signature="e#40317#40341#0" expanded="true" />
-                <element signature="e#42841#42868#0" expanded="true" />
-                <element signature="e#43483#43514#0" expanded="true" />
-                <element signature="e#45021#45097#0" expanded="true" />
-                <element signature="e#45201#45274#0" expanded="true" />
-                <element signature="e#46764#46792#0" expanded="true" />
-                <element signature="e#46822#46846#0" expanded="true" />
-                <element signature="e#46883#46907#0" expanded="true" />
-                <element signature="e#47196#47240#0" expanded="true" />
-                <element signature="e#49347#49376#0" expanded="true" />
-                <element signature="e#49838#49866#0" expanded="true" />
-                <element signature="e#49896#49929#0" expanded="true" />
-                <element signature="e#49966#49991#0" expanded="true" />
-                <element signature="e#50597#50621#0" expanded="true" />
-                <element signature="e#51803#51844#0" expanded="true" />
-                <element signature="e#54204#54232#0" expanded="true" />
-                <element signature="e#54331#54355#0" expanded="true" />
-                <element signature="e#55567#55619#0" expanded="true" />
-                <element signature="e#55752#55780#0" expanded="true" />
-                <element signature="e#55863#55882#0" expanded="true" />
-                <element signature="e#56458#56479#0" expanded="true" />
-                <element signature="e#57179#57200#0" expanded="true" />
-                <element signature="e#65764#65810#0" expanded="true" />
-                <element signature="e#65971#65992#0" expanded="true" />
-                <element signature="e#66075#66094#0" expanded="true" />
-                <element signature="e#66820#66841#0" expanded="true" />
-                <element signature="e#67860#67881#0" expanded="true" />
-                <marker date="1515258756820" expanded="false" signature="19309:19382" ph="() → { " />
-                <marker date="1515258756820" expanded="false" signature="19398:19430" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="23862:23986" ph="(dialog) → { " />
-                <marker date="1515258756820" expanded="false" signature="24012:24044" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="24149:24261" ph="(fractionComplete) → {" />
-                <marker date="1515258756820" expanded="false" signature="24685:24704" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="25453:25513" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="25738:25765" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="25927:25974" ph="(Thread) run() → {" />
-                <marker date="1515258756820" expanded="false" signature="26940:27004" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="27233:27264" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="27593:27657" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="27896:27927" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="28145:28209" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="28292:28323" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="28478:28494" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="31677:31716" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="31787:31793" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="32161:32200" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="32267:32273" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="33049:33097" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="33783:33798" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="34576:34587" ph=" { " />
-                <marker date="1515258756820" expanded="false" signature="34625:34631" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="34678:34689" ph=" { " />
-                <marker date="1515258756820" expanded="false" signature="34735:34741" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="34778:34789" ph=" { " />
-                <marker date="1515258756820" expanded="false" signature="34825:34831" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="34876:34887" ph=" { " />
-                <marker date="1515258756820" expanded="false" signature="34931:34937" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="40359:40546" ph="(dialog, whichButton) → { " />
-                <marker date="1515258756820" expanded="false" signature="40555:40595" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="43706:43753" ph="(Thread) run() → {" />
-                <marker date="1515258756820" expanded="false" signature="44208:44320" ph="(frac) → {" />
-                <marker date="1515258756820" expanded="false" signature="44676:44707" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="45468:45532" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="45759:45790" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="45964:46024" ph="() → {" />
-                <marker date="1515258756820" expanded="false" signature="46273:46300" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="46351:46366" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="50013:50183" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="50512:50539" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="50643:50813" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="50901:50928" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="51239:51316" ph="handleMessage(response) → {" />
-                <marker date="1515258756820" expanded="false" signature="52373:52392" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="54377:54547" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="54741:54768" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="55900:56062" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="56386:56409" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="56497:56659" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="57106:57129" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="57218:57380" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="57608:57631" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="57981:58058" ph="handleMessage(response) → {" />
-                <marker date="1515258756820" expanded="false" signature="58237:58256" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="58653:58723" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="59008:59023" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="59070:59140" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="59206:59221" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="59270:59340" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="59705:59720" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="59770:59840" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="60206:60221" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="60270:60340" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="60734:60749" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="60796:60866" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="61252:61267" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="61319:61389" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="61626:61641" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="61691:61761" ph="(sender) → {" />
-                <marker date="1515258756820" expanded="false" signature="62031:62046" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="66112:66274" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="66748:66771" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="66859:67021" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="67787:67810" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="67899:68061" ph="(dialog, whichButton) → {" />
-                <marker date="1515258756820" expanded="false" signature="68969:68992" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="69324:69388" ph="(Thread) run() → { " />
-                <marker date="1515258756820" expanded="false" signature="69431:69456" ph=" }" />
-                <marker date="1515258756820" expanded="false" signature="69753:69799" ph="(Thread) run() → {" />
-                <marker date="1515258756820" expanded="false" signature="69875:69891" ph="}" />
-                <marker date="1515258756820" expanded="false" signature="76458:76615" ph="(context, intent) → {" />
-                <marker date="1515258756820" expanded="false" signature="76867:76872" ph="}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaveformView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WaveformView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="276" column="16" lean-forward="false" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
+            <state relative-caret-position="131">
+              <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
               <folding>
-                <element signature="e#6100#6101#0" expanded="true" />
-                <element signature="e#6135#6136#0" expanded="true" />
-                <element signature="e#8794#8795#0" expanded="true" />
-                <element signature="e#8824#8825#0" expanded="true" />
-                <element signature="e#8864#8865#0" expanded="true" />
-                <element signature="e#8898#8899#0" expanded="true" />
+                <element signature="e#4773#5022#0" expanded="true" />
+                <element signature="e#5021#5022#0" expanded="true" />
+                <element signature="e#6963#6964#0" expanded="true" />
+                <element signature="e#6998#6999#0" expanded="true" />
+                <element signature="e#7031#7032#0" expanded="true" />
+                <element signature="e#7064#7065#0" expanded="true" />
+                <element signature="e#7298#7299#0" expanded="true" />
+                <element signature="e#7337#7338#0" expanded="true" />
+                <element signature="e#7820#7821#0" expanded="true" />
+                <element signature="e#7876#7877#0" expanded="true" />
+                <element signature="e#8353#8354#0" expanded="true" />
+                <element signature="e#8403#8404#0" expanded="true" />
+                <element signature="e#9526#9527#0" expanded="true" />
+                <element signature="e#9564#9565#0" expanded="true" />
+                <element signature="e#9591#9592#0" expanded="true" />
+                <element signature="e#9627#9628#0" expanded="true" />
+                <element signature="e#9657#9658#0" expanded="true" />
+                <element signature="e#9687#9688#0" expanded="true" />
+                <element signature="e#9727#9728#0" expanded="true" />
+                <element signature="e#9761#9762#0" expanded="true" />
+                <element signature="e#9819#9820#0" expanded="true" />
+                <element signature="e#9855#9856#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheapSoundFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapSoundFile.java">
+      <file leaf-file-name="RingdroidEditActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1686">
-              <caret line="153" column="15" lean-forward="false" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
+            <state relative-caret-position="121">
+              <caret line="630" column="0" lean-forward="false" selection-start-line="630" selection-start-column="0" selection-end-line="630" selection-end-column="0" />
               <folding>
-                <element signature="e#4699#4700#0" expanded="true" />
-                <element signature="e#4723#4724#0" expanded="true" />
+                <marker date="1515935762007" expanded="false" signature="19861:19934" ph="() → { " />
+                <marker date="1515935762007" expanded="false" signature="19950:19982" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="20214:20234" ph="&quot;About Ringdroid&quot;" />
+                <marker date="1515935762007" expanded="false" signature="20260:20279" ph="&quot;Use Ringdroid to edit MP3, WAV, AAC, and AMR audio file...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="20312:20336" ph="&quot;OK&quot;" />
+                <marker date="1515935762007" expanded="false" signature="24277:24309" ph="&quot;Loading...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="24414:24538" ph="(dialog) → { " />
+                <marker date="1515935762007" expanded="false" signature="24564:24596" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="24701:24813" ph="(fractionComplete) → {" />
+                <marker date="1515935762007" expanded="false" signature="25237:25256" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="25360:25406" ph="(Thread) run() → {" />
+                <marker date="1515935762007" expanded="false" signature="26005:26065" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="26189:26232" ph="&quot;Error reading file&quot;" />
+                <marker date="1515935762007" expanded="false" signature="26290:26317" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="26391:26406" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="26479:26526" ph="(Thread) run() → {" />
+                <marker date="1515935762007" expanded="false" signature="27051:27137" ph="&quot;Sorry, Ringdroid can't edit a file if it doesn't have a...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="27206:27293" ph="&quot;Sorry, Ringdroid is not yet able to edit files of type&quot;" />
+                <marker date="1515935762007" expanded="false" signature="27492:27556" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="27785:27816" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="28145:28209" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="28341:28384" ph="&quot;Error reading file&quot;" />
+                <marker date="1515935762007" expanded="false" signature="28448:28479" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="28697:28761" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="28844:28875" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="29030:29046" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="29743:29790" ph="&quot;seconds&quot;" />
+                <marker date="1515935762007" expanded="false" signature="31801:31846" ph="&quot;Start marker&quot;" />
+                <marker date="1515935762007" expanded="false" signature="31945:31988" ph="&quot;End marker&quot;" />
+                <marker date="1515935762007" expanded="false" signature="32229:32268" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="32339:32345" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="32713:32752" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="32819:32825" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="33601:33649" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="34335:34350" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="34544:34581" ph="&quot;Stop&quot;" />
+                <marker date="1515935762007" expanded="false" signature="34723:34760" ph="&quot;Play&quot;" />
+                <marker date="1515935762007" expanded="false" signature="35128:35139" ph=" { " />
+                <marker date="1515935762007" expanded="false" signature="35177:35183" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="35230:35241" ph=" { " />
+                <marker date="1515935762007" expanded="false" signature="35287:35293" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="35330:35341" ph=" { " />
+                <marker date="1515935762007" expanded="false" signature="35377:35383" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="35428:35439" ph=" { " />
+                <marker date="1515935762007" expanded="false" signature="35483:35489" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="39675:39694" ph="&quot;Unable to play this media file&quot;" />
+                <marker date="1515935762007" expanded="false" signature="40430:40482" ph="&quot;Error&quot;" />
+                <marker date="1515935762007" expanded="false" signature="40630:40682" ph="&quot;Success&quot;" />
+                <marker date="1515935762007" expanded="false" signature="40865:40889" ph="&quot;OK&quot;" />
+                <marker date="1515935762007" expanded="false" signature="40907:41094" ph="(dialog, whichButton) → { " />
+                <marker date="1515935762007" expanded="false" signature="41103:41143" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="43389:43416" ph="&quot;Unable to find unique filename&quot;" />
+                <marker date="1515935762007" expanded="false" signature="44031:44062" ph="&quot;Saving...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="44254:44301" ph="(Thread) run() → {" />
+                <marker date="1515935762007" expanded="false" signature="44756:44868" ph="(frac) → {" />
+                <marker date="1515935762007" expanded="false" signature="45224:45255" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="45569:45645" ph="&quot;Your SD card is full, there is not enough space to save...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="45749:45822" ph="&quot;Error writing file&quot;" />
+                <marker date="1515935762007" expanded="false" signature="46016:46080" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="46307:46338" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="46512:46572" ph="() → {" />
+                <marker date="1515935762007" expanded="false" signature="46821:46848" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="46899:46914" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="47312:47340" ph="&quot;Error&quot;" />
+                <marker date="1515935762007" expanded="false" signature="47370:47394" ph="&quot;Can't save a file that small, try making it longer.&quot;" />
+                <marker date="1515935762007" expanded="false" signature="47431:47455" ph="&quot;OK&quot;" />
+                <marker date="1515935762007" expanded="false" signature="47744:47788" ph="&quot;Ringdroid&quot;" />
+                <marker date="1515935762007" expanded="false" signature="49895:49924" ph="&quot;Saved!&quot;" />
+                <marker date="1515935762007" expanded="false" signature="50386:50414" ph="&quot;Success&quot;" />
+                <marker date="1515935762007" expanded="false" signature="50444:50477" ph="&quot;Saved! Make this your default notification?&quot;" />
+                <marker date="1515935762007" expanded="false" signature="50514:50539" ph="&quot;Yes, please!&quot;" />
+                <marker date="1515935762007" expanded="false" signature="50561:50731" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="51060:51087" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="51145:51169" ph="&quot;No, thanks.&quot;" />
+                <marker date="1515935762007" expanded="false" signature="51191:51361" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="51449:51476" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="51787:51864" ph="handleMessage(response) → {" />
+                <marker date="1515935762007" expanded="false" signature="52351:52392" ph="&quot;Changed default ringtone&quot;" />
+                <marker date="1515935762007" expanded="false" signature="52921:52940" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="54752:54780" ph="&quot;Error&quot;" />
+                <marker date="1515935762007" expanded="false" signature="54879:54903" ph="&quot;OK&quot;" />
+                <marker date="1515935762007" expanded="false" signature="54925:55095" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="55289:55316" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="56115:56167" ph="&quot;Okay to send anonymous data about this error to Ringdro...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="56300:56328" ph="&quot;Error&quot;" />
+                <marker date="1515935762007" expanded="false" signature="56411:56430" ph="&quot;OK to send&quot;" />
+                <marker date="1515935762007" expanded="false" signature="56448:56610" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="56934:56957" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="57006:57027" ph="&quot;Ask later&quot;" />
+                <marker date="1515935762007" expanded="false" signature="57045:57207" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="57654:57677" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="57727:57748" ph="&quot;Never&quot;" />
+                <marker date="1515935762007" expanded="false" signature="57766:57928" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="58156:58179" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="58529:58606" ph="handleMessage(response) → {" />
+                <marker date="1515935762007" expanded="false" signature="58785:58804" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="59201:59271" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="59556:59571" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="59618:59688" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="59754:59769" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="59818:59888" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="60253:60268" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="60318:60388" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="60754:60769" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="60818:60888" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="61282:61297" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="61344:61414" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="61800:61815" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="61867:61937" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="62174:62189" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="62239:62309" ph="(sender) → {" />
+                <marker date="1515935762007" expanded="false" signature="62579:62594" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="66312:66358" ph="&quot;Okay to send anonymous data about the ringtones and oth...&quot;" />
+                <marker date="1515935762007" expanded="false" signature="66519:66540" ph="&quot;Share your data!&quot;" />
+                <marker date="1515935762007" expanded="false" signature="66623:66642" ph="&quot;OK to send&quot;" />
+                <marker date="1515935762007" expanded="false" signature="66660:66822" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="67296:67319" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="67368:67389" ph="&quot;Ask later&quot;" />
+                <marker date="1515935762007" expanded="false" signature="67407:67569" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="68335:68358" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="68408:68429" ph="&quot;Never&quot;" />
+                <marker date="1515935762007" expanded="false" signature="68447:68609" ph="(dialog, whichButton) → {" />
+                <marker date="1515935762007" expanded="false" signature="69517:69540" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="69872:69936" ph="(Thread) run() → { " />
+                <marker date="1515935762007" expanded="false" signature="69979:70004" ph=" }" />
+                <marker date="1515935762007" expanded="false" signature="70301:70347" ph="(Thread) run() → {" />
+                <marker date="1515935762007" expanded="false" signature="70423:70439" ph="}" />
+                <marker date="1515935762007" expanded="false" signature="77006:77163" ph="(context, intent) → {" />
+                <marker date="1515935762007" expanded="false" signature="77415:77420" ph="}" />
               </folding>
             </state>
           </provider>
@@ -249,56 +231,35 @@
       <file leaf-file-name="CheapWAV.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapWAV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811">
-              <caret line="108" column="15" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="15" />
+            <state relative-caret-position="2010">
+              <caret line="175" column="50" lean-forward="false" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
-                <element signature="e#1748#1749#0" expanded="true" />
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1826#1827#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#2004#2005#0" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
-                <element signature="e#2075#2076#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2153#2154#0" expanded="true" />
-                <element signature="e#2210#2211#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#2278#2279#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-                <element signature="e#2342#2343#0" expanded="true" />
-                <element signature="e#2377#2378#0" expanded="true" />
-                <element signature="e#2405#2406#0" expanded="true" />
+                <element signature="e#0#9894#0" expanded="false" />
+                <element signature="e#1108#1109#0" expanded="false" />
+                <element signature="e#1161#1162#0" expanded="false" />
+                <element signature="e#1216#1217#0" expanded="false" />
+                <element signature="e#1277#1278#0" expanded="false" />
+                <element signature="e#1715#1716#0" expanded="false" />
+                <element signature="e#1748#1749#0" expanded="false" />
+                <element signature="e#1787#1788#0" expanded="false" />
+                <element signature="e#1826#1827#0" expanded="false" />
+                <element signature="e#1864#1865#0" expanded="false" />
+                <element signature="e#1900#1901#0" expanded="false" />
+                <element signature="e#1935#1936#0" expanded="false" />
+                <element signature="e#1968#1969#0" expanded="false" />
+                <element signature="e#2004#2005#0" expanded="false" />
+                <element signature="e#2038#2039#0" expanded="false" />
+                <element signature="e#2075#2076#0" expanded="false" />
+                <element signature="e#2115#2116#0" expanded="false" />
+                <element signature="e#2153#2154#0" expanded="false" />
+                <element signature="e#2210#2211#0" expanded="false" />
+                <element signature="e#2244#2245#0" expanded="false" />
+                <element signature="e#2278#2279#0" expanded="false" />
+                <element signature="e#2310#2311#0" expanded="false" />
+                <element signature="e#2342#2343#0" expanded="false" />
+                <element signature="e#2377#2378#0" expanded="false" />
+                <element signature="e#2405#2406#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheapMP3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapMP3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1849">
-              <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-              <folding>
-                <element signature="e#1946#1947#0" expanded="true" />
-                <element signature="e#1979#1980#0" expanded="true" />
-                <element signature="e#2440#2441#0" expanded="true" />
-                <element signature="e#2480#2481#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediaPlayer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/android/media/MediaPlayer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-404">
-              <caret line="267" column="16" lean-forward="false" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -306,23 +267,33 @@
       <file leaf-file-name="MarkerView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/MarkerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            <state relative-caret-position="69">
+              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="KeyEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/view/KeyEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="532">
+              <caret line="2757" column="11" lean-forward="false" selection-start-line="2757" selection-start-column="11" selection-end-line="2757" selection-end-column="11" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="RingdroidSelectActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidSelectActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1503">
+              <caret line="133" column="35" lean-forward="false" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+              <folding>
+                <element signature="e#3810#3944#0" expanded="true" />
+                <element signature="e#3943#3944#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -330,36 +301,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RIGHT</find>
-      <find>68</find>
-      <find>69</find>
-      <find>70</find>
-      <find>67</find>
-      <find>72</find>
-      <find>105</find>
-      <find>106</find>
-      <find>28</find>
-      <find>enter</find>
-      <find>82</find>
-      <find>4</find>
-      <find>back</find>
-      <find>66</find>
-      <find>keyCode</find>
-      <find>boot_mode</find>
-      <find>uses-permission</find>
-      <find>19</find>
-      <find>write</find>
-      <find>boot</find>
-      <find>markerLeft</find>
-      <find>startByte</find>
-      <find>mListener</find>
-      <find>markerTouchMove</find>
       <find>mSoundFile</find>
-      <find>mNumFrames</find>
-      <find>mOffset</find>
       <find>minGain</find>
       <find>setPlayback</find>
       <find>gainHist</find>
+      <find>mOffset</find>
+      <find>mFilename</find>
+      <find>mNumFrames</find>
+      <find>mFrameGains</find>
+      <find>getFrame</find>
+      <find>waveformTouchStart</find>
+      <find>mListener</find>
+      <find>measuredHeight</find>
+      <find>getMeasuredHeight</find>
+      <find>mValuesByZoomLevel</find>
+      <find>frameGains</find>
+      <find>markerKeyUp</find>
+      <find>setListener</find>
+      <find>seekPos</find>
+      <find>onPlay</find>
+      <find>mStartPos</find>
+      <find>heights</find>
+      <find>markerTouchStart</find>
+      <find>markerTouchMove</find>
+      <find>waveformTouchMove</find>
+      <find>computeDoublesForAllZoomLevels</find>
+      <find>markerLeft</find>
+      <find>startRingdroidEditor</find>
+      <find>find</find>
+      <find>smoothedGains</find>
+      <find>markerRight</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2086,10 +2057,10 @@
         <option value="$USER_HOME$/Library/Android/sdk/platforms/android-24/android.jar!/android/app/Activity.class" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidSelectActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java" />
         <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ringdroid/MarkerView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java" />
       </list>
     </option>
@@ -2101,7 +2072,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2115,18 +2086,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="mp3repeater" />
@@ -2157,156 +2120,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ringdroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ringdroid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soundfile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp3repeater" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -2397,8 +2217,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515302285953" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515936734676" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2445,8 +2264,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515302285953" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515936734676" />
       </method>
     </configuration>
     <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
@@ -2660,8 +2478,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515302285954" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515936734678" />
       </method>
     </configuration>
     <list size="1">
@@ -2699,7 +2516,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -2715,7 +2532,7 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.56008583" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.29545453" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29613733" sideWeight="0.30492425" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2729,19 +2546,19 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.43705294" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29613733" sideWeight="0.70454544" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27038628" sideWeight="0.69507575" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30495554" sideWeight="0.7839771" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40152478" sideWeight="0.7839771" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29613733" sideWeight="0.30492425" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2775,177 +2592,60 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java</url>
+          <line>642</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidSelectActivity.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidSelectActivity.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="30" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="mframeGains[mSelectionEnd]" language="JAVA" />
+        <watch expression="mframeGains[pos]" />
+        <watch expression="mframeGains[pos + 1]" />
+        <watch expression="pos" />
+        <watch expression="mframeGains" language="JAVA" />
+        <watch expression="mHeightsAtThisZoomLevel" />
+        <watch expression="mSoundFile" />
+        <watch expression="mValuesByZoomLevel" />
+        <watch expression="smoothedGains" language="JAVA" />
+        <watch expression="pos" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7995#8016#0" expanded="true" />
-            <element signature="e#9071#9096#0" expanded="true" />
-            <element signature="e#9268#9293#0" expanded="true" />
-            <element signature="e#11935#11953#0" expanded="true" />
-            <element signature="e#12042#12061#0" expanded="true" />
-            <element signature="e#12151#12170#0" expanded="true" />
-            <element signature="e#19662#19682#0" expanded="true" />
-            <element signature="e#19708#19727#0" expanded="true" />
-            <element signature="e#19760#19784#0" expanded="true" />
-            <element signature="e#23725#23757#0" expanded="true" />
-            <element signature="e#24808#25854#0" expanded="true" />
-            <element signature="e#25637#25680#0" expanded="true" />
-            <element signature="e#25853#25854#0" expanded="true" />
-            <element signature="e#26499#26585#0" expanded="true" />
-            <element signature="e#26654#26741#0" expanded="true" />
-            <element signature="e#27789#27832#0" expanded="true" />
-            <element signature="e#29191#29238#0" expanded="true" />
-            <element signature="e#31249#31294#0" expanded="true" />
-            <element signature="e#31393#31436#0" expanded="true" />
-            <element signature="e#33992#34029#0" expanded="true" />
-            <element signature="e#34171#34208#0" expanded="true" />
-            <element signature="e#39127#39146#0" expanded="true" />
-            <element signature="e#39882#39934#0" expanded="true" />
-            <element signature="e#40082#40134#0" expanded="true" />
-            <element signature="e#40317#40341#0" expanded="true" />
-            <element signature="e#42841#42868#0" expanded="true" />
-            <element signature="e#43483#43514#0" expanded="true" />
-            <element signature="e#45021#45097#0" expanded="true" />
-            <element signature="e#45201#45274#0" expanded="true" />
-            <element signature="e#46764#46792#0" expanded="true" />
-            <element signature="e#46822#46846#0" expanded="true" />
-            <element signature="e#46883#46907#0" expanded="true" />
-            <element signature="e#47196#47240#0" expanded="true" />
-            <element signature="e#49347#49376#0" expanded="true" />
-            <element signature="e#49838#49866#0" expanded="true" />
-            <element signature="e#49896#49929#0" expanded="true" />
-            <element signature="e#49966#49991#0" expanded="true" />
-            <element signature="e#50597#50621#0" expanded="true" />
-            <element signature="e#51803#51844#0" expanded="true" />
-            <element signature="e#54204#54232#0" expanded="true" />
-            <element signature="e#54331#54355#0" expanded="true" />
-            <element signature="e#55567#55619#0" expanded="true" />
-            <element signature="e#55752#55780#0" expanded="true" />
-            <element signature="e#55863#55882#0" expanded="true" />
-            <element signature="e#56458#56479#0" expanded="true" />
-            <element signature="e#57179#57200#0" expanded="true" />
-            <element signature="e#65764#65810#0" expanded="true" />
-            <element signature="e#65971#65992#0" expanded="true" />
-            <element signature="e#66075#66094#0" expanded="true" />
-            <element signature="e#66820#66841#0" expanded="true" />
-            <element signature="e#67860#67881#0" expanded="true" />
-            <marker date="1515258756820" expanded="false" signature="19309:19382" ph="() → { " />
-            <marker date="1515258756820" expanded="false" signature="19398:19430" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="23862:23986" ph="(dialog) → { " />
-            <marker date="1515258756820" expanded="false" signature="24012:24044" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="24149:24261" ph="(fractionComplete) → {" />
-            <marker date="1515258756820" expanded="false" signature="24685:24704" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25453:25513" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="25738:25765" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25927:25974" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="26940:27004" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27233:27264" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="27593:27657" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27896:27927" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28145:28209" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="28292:28323" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28478:28494" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="31677:31716" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="31787:31793" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="32161:32200" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="32267:32273" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="33049:33097" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="33783:33798" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="34576:34587" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34625:34631" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34678:34689" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34735:34741" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34778:34789" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34825:34831" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34876:34887" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34931:34937" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="40359:40546" ph="(dialog, whichButton) → { " />
-            <marker date="1515258756820" expanded="false" signature="40555:40595" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="43706:43753" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="44208:44320" ph="(frac) → {" />
-            <marker date="1515258756820" expanded="false" signature="44676:44707" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45468:45532" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="45759:45790" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45964:46024" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="46273:46300" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="46351:46366" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50013:50183" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50512:50539" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50643:50813" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50901:50928" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="51239:51316" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="52373:52392" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="54377:54547" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="54741:54768" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="55900:56062" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="56386:56409" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="56497:56659" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57106:57129" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57218:57380" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57608:57631" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57981:58058" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="58237:58256" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="58653:58723" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59008:59023" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59070:59140" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59206:59221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59270:59340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59705:59720" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59770:59840" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60206:60221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60270:60340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60734:60749" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60796:60866" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61252:61267" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61319:61389" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61626:61641" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61691:61761" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="62031:62046" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66112:66274" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="66748:66771" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66859:67021" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="67787:67810" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="67899:68061" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="68969:68992" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="69324:69388" ph="(Thread) run() → { " />
-            <marker date="1515258756820" expanded="false" signature="69431:69456" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="69753:69799" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="69875:69891" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="76458:76615" ph="(context, intent) → {" />
-            <marker date="1515258756820" expanded="false" signature="76867:76872" ph="}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2953,7 +2653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2961,7 +2660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2977,7 +2675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2994,142 +2691,135 @@
         <state relative-caret-position="1185">
           <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7995#8016#0" expanded="true" />
-            <element signature="e#9071#9096#0" expanded="true" />
-            <element signature="e#9268#9293#0" expanded="true" />
-            <element signature="e#11935#11953#0" expanded="true" />
-            <element signature="e#12042#12061#0" expanded="true" />
-            <element signature="e#12151#12170#0" expanded="true" />
-            <element signature="e#19662#19682#0" expanded="true" />
-            <element signature="e#19708#19727#0" expanded="true" />
-            <element signature="e#19760#19784#0" expanded="true" />
-            <element signature="e#23725#23757#0" expanded="true" />
-            <element signature="e#24808#25854#0" expanded="true" />
-            <element signature="e#25637#25680#0" expanded="true" />
-            <element signature="e#25853#25854#0" expanded="true" />
-            <element signature="e#26499#26585#0" expanded="true" />
-            <element signature="e#26654#26741#0" expanded="true" />
-            <element signature="e#27789#27832#0" expanded="true" />
-            <element signature="e#29191#29238#0" expanded="true" />
-            <element signature="e#31249#31294#0" expanded="true" />
-            <element signature="e#31393#31436#0" expanded="true" />
-            <element signature="e#33992#34029#0" expanded="true" />
-            <element signature="e#34171#34208#0" expanded="true" />
-            <element signature="e#39127#39146#0" expanded="true" />
-            <element signature="e#39882#39934#0" expanded="true" />
-            <element signature="e#40082#40134#0" expanded="true" />
-            <element signature="e#40317#40341#0" expanded="true" />
-            <element signature="e#42841#42868#0" expanded="true" />
-            <element signature="e#43483#43514#0" expanded="true" />
-            <element signature="e#45021#45097#0" expanded="true" />
-            <element signature="e#45201#45274#0" expanded="true" />
-            <element signature="e#46764#46792#0" expanded="true" />
-            <element signature="e#46822#46846#0" expanded="true" />
-            <element signature="e#46883#46907#0" expanded="true" />
-            <element signature="e#47196#47240#0" expanded="true" />
-            <element signature="e#49347#49376#0" expanded="true" />
-            <element signature="e#49838#49866#0" expanded="true" />
-            <element signature="e#49896#49929#0" expanded="true" />
-            <element signature="e#49966#49991#0" expanded="true" />
-            <element signature="e#50597#50621#0" expanded="true" />
-            <element signature="e#51803#51844#0" expanded="true" />
-            <element signature="e#54204#54232#0" expanded="true" />
-            <element signature="e#54331#54355#0" expanded="true" />
-            <element signature="e#55567#55619#0" expanded="true" />
-            <element signature="e#55752#55780#0" expanded="true" />
-            <element signature="e#55863#55882#0" expanded="true" />
-            <element signature="e#56458#56479#0" expanded="true" />
-            <element signature="e#57179#57200#0" expanded="true" />
-            <element signature="e#65764#65810#0" expanded="true" />
-            <element signature="e#65971#65992#0" expanded="true" />
-            <element signature="e#66075#66094#0" expanded="true" />
-            <element signature="e#66820#66841#0" expanded="true" />
-            <element signature="e#67860#67881#0" expanded="true" />
-            <marker date="1515258756820" expanded="false" signature="19309:19382" ph="() → { " />
-            <marker date="1515258756820" expanded="false" signature="19398:19430" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="23862:23986" ph="(dialog) → { " />
-            <marker date="1515258756820" expanded="false" signature="24012:24044" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="24149:24261" ph="(fractionComplete) → {" />
-            <marker date="1515258756820" expanded="false" signature="24685:24704" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25453:25513" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="25738:25765" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25927:25974" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="26940:27004" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27233:27264" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="27593:27657" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27896:27927" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28145:28209" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="28292:28323" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28478:28494" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="31677:31716" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="31787:31793" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="32161:32200" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="32267:32273" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="33049:33097" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="33783:33798" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="34576:34587" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34625:34631" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34678:34689" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34735:34741" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34778:34789" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34825:34831" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34876:34887" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34931:34937" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="40359:40546" ph="(dialog, whichButton) → { " />
-            <marker date="1515258756820" expanded="false" signature="40555:40595" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="43706:43753" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="44208:44320" ph="(frac) → {" />
-            <marker date="1515258756820" expanded="false" signature="44676:44707" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45468:45532" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="45759:45790" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45964:46024" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="46273:46300" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="46351:46366" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50013:50183" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50512:50539" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50643:50813" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50901:50928" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="51239:51316" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="52373:52392" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="54377:54547" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="54741:54768" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="55900:56062" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="56386:56409" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="56497:56659" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57106:57129" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57218:57380" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57608:57631" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57981:58058" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="58237:58256" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="58653:58723" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59008:59023" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59070:59140" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59206:59221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59270:59340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59705:59720" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59770:59840" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60206:60221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60270:60340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60734:60749" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60796:60866" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61252:61267" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61319:61389" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61626:61641" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61691:61761" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="62031:62046" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66112:66274" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="66748:66771" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66859:67021" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="67787:67810" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="67899:68061" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="68969:68992" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="69324:69388" ph="(Thread) run() → { " />
-            <marker date="1515258756820" expanded="false" signature="69431:69456" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="69753:69799" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="69875:69891" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="76458:76615" ph="(context, intent) → {" />
-            <marker date="1515258756820" expanded="false" signature="76867:76872" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="19861:19934" ph="() → { " />
+            <marker date="1515935762007" expanded="false" signature="19950:19982" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="20214:20234" ph="&quot;About Ringdroid&quot;" />
+            <marker date="1515935762007" expanded="false" signature="20260:20279" ph="&quot;Use Ringdroid to edit MP3, WAV, AAC, and AMR audio file...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="20312:20336" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="24277:24309" ph="&quot;Loading...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="24414:24538" ph="(dialog) → { " />
+            <marker date="1515935762007" expanded="false" signature="24564:24596" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="24701:24813" ph="(fractionComplete) → {" />
+            <marker date="1515935762007" expanded="false" signature="25237:25256" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="25360:25406" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="26005:26065" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="26189:26232" ph="&quot;Error reading file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="26290:26317" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="26391:26406" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="26479:26526" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="27051:27137" ph="&quot;Sorry, Ringdroid can't edit a file if it doesn't have a...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="27206:27293" ph="&quot;Sorry, Ringdroid is not yet able to edit files of type&quot;" />
+            <marker date="1515935762007" expanded="false" signature="27492:27556" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="27785:27816" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="28145:28209" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="28341:28384" ph="&quot;Error reading file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="28448:28479" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="28697:28761" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="28844:28875" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="29030:29046" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="29743:29790" ph="&quot;seconds&quot;" />
+            <marker date="1515935762007" expanded="false" signature="31801:31846" ph="&quot;Start marker&quot;" />
+            <marker date="1515935762007" expanded="false" signature="31945:31988" ph="&quot;End marker&quot;" />
+            <marker date="1515935762007" expanded="false" signature="32229:32268" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="32339:32345" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="32713:32752" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="32819:32825" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="33601:33649" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="34335:34350" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="34544:34581" ph="&quot;Stop&quot;" />
+            <marker date="1515935762007" expanded="false" signature="34723:34760" ph="&quot;Play&quot;" />
+            <marker date="1515935762007" expanded="false" signature="35128:35139" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35177:35183" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35230:35241" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35287:35293" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35330:35341" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35377:35383" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35428:35439" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35483:35489" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="39675:39694" ph="&quot;Unable to play this media file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40430:40482" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40630:40682" ph="&quot;Success&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40865:40889" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40907:41094" ph="(dialog, whichButton) → { " />
+            <marker date="1515935762007" expanded="false" signature="41103:41143" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="43389:43416" ph="&quot;Unable to find unique filename&quot;" />
+            <marker date="1515935762007" expanded="false" signature="44031:44062" ph="&quot;Saving...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="44254:44301" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="44756:44868" ph="(frac) → {" />
+            <marker date="1515935762007" expanded="false" signature="45224:45255" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="45569:45645" ph="&quot;Your SD card is full, there is not enough space to save...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="45749:45822" ph="&quot;Error writing file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="46016:46080" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="46307:46338" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="46512:46572" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="46821:46848" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="46899:46914" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="47312:47340" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47370:47394" ph="&quot;Can't save a file that small, try making it longer.&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47431:47455" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47744:47788" ph="&quot;Ringdroid&quot;" />
+            <marker date="1515935762007" expanded="false" signature="49895:49924" ph="&quot;Saved!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50386:50414" ph="&quot;Success&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50444:50477" ph="&quot;Saved! Make this your default notification?&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50514:50539" ph="&quot;Yes, please!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50561:50731" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="51060:51087" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="51145:51169" ph="&quot;No, thanks.&quot;" />
+            <marker date="1515935762007" expanded="false" signature="51191:51361" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="51449:51476" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="51787:51864" ph="handleMessage(response) → {" />
+            <marker date="1515935762007" expanded="false" signature="52351:52392" ph="&quot;Changed default ringtone&quot;" />
+            <marker date="1515935762007" expanded="false" signature="52921:52940" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="54752:54780" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="54879:54903" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="54925:55095" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="55289:55316" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="56115:56167" ph="&quot;Okay to send anonymous data about this error to Ringdro...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56300:56328" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56411:56430" ph="&quot;OK to send&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56448:56610" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="56934:56957" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="57006:57027" ph="&quot;Ask later&quot;" />
+            <marker date="1515935762007" expanded="false" signature="57045:57207" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="57654:57677" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="57727:57748" ph="&quot;Never&quot;" />
+            <marker date="1515935762007" expanded="false" signature="57766:57928" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="58156:58179" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="58529:58606" ph="handleMessage(response) → {" />
+            <marker date="1515935762007" expanded="false" signature="58785:58804" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59201:59271" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="59556:59571" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59618:59688" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="59754:59769" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59818:59888" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="60253:60268" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="60318:60388" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="60754:60769" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="60818:60888" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="61282:61297" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="61344:61414" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="61800:61815" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="61867:61937" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="62174:62189" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="62239:62309" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="62579:62594" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="66312:66358" ph="&quot;Okay to send anonymous data about the ringtones and oth...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66519:66540" ph="&quot;Share your data!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66623:66642" ph="&quot;OK to send&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66660:66822" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="67296:67319" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="67368:67389" ph="&quot;Ask later&quot;" />
+            <marker date="1515935762007" expanded="false" signature="67407:67569" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="68335:68358" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="68408:68429" ph="&quot;Never&quot;" />
+            <marker date="1515935762007" expanded="false" signature="68447:68609" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="69517:69540" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="69872:69936" ph="(Thread) run() → { " />
+            <marker date="1515935762007" expanded="false" signature="69979:70004" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="70301:70347" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="70423:70439" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="77006:77163" ph="(context, intent) → {" />
+            <marker date="1515935762007" expanded="false" signature="77415:77420" ph="}" />
           </folding>
         </state>
       </provider>
@@ -3138,7 +2828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3146,7 +2835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3154,7 +2842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3162,7 +2849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3170,7 +2856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3179,142 +2864,135 @@
         <state relative-caret-position="1140">
           <caret line="90" column="36" lean-forward="false" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7995#8016#0" expanded="true" />
-            <element signature="e#9071#9096#0" expanded="true" />
-            <element signature="e#9268#9293#0" expanded="true" />
-            <element signature="e#11935#11953#0" expanded="true" />
-            <element signature="e#12042#12061#0" expanded="true" />
-            <element signature="e#12151#12170#0" expanded="true" />
-            <element signature="e#19662#19682#0" expanded="true" />
-            <element signature="e#19708#19727#0" expanded="true" />
-            <element signature="e#19760#19784#0" expanded="true" />
-            <element signature="e#23725#23757#0" expanded="true" />
-            <element signature="e#24808#25854#0" expanded="true" />
-            <element signature="e#25637#25680#0" expanded="true" />
-            <element signature="e#25853#25854#0" expanded="true" />
-            <element signature="e#26499#26585#0" expanded="true" />
-            <element signature="e#26654#26741#0" expanded="true" />
-            <element signature="e#27789#27832#0" expanded="true" />
-            <element signature="e#29191#29238#0" expanded="true" />
-            <element signature="e#31249#31294#0" expanded="true" />
-            <element signature="e#31393#31436#0" expanded="true" />
-            <element signature="e#33992#34029#0" expanded="true" />
-            <element signature="e#34171#34208#0" expanded="true" />
-            <element signature="e#39127#39146#0" expanded="true" />
-            <element signature="e#39882#39934#0" expanded="true" />
-            <element signature="e#40082#40134#0" expanded="true" />
-            <element signature="e#40317#40341#0" expanded="true" />
-            <element signature="e#42841#42868#0" expanded="true" />
-            <element signature="e#43483#43514#0" expanded="true" />
-            <element signature="e#45021#45097#0" expanded="true" />
-            <element signature="e#45201#45274#0" expanded="true" />
-            <element signature="e#46764#46792#0" expanded="true" />
-            <element signature="e#46822#46846#0" expanded="true" />
-            <element signature="e#46883#46907#0" expanded="true" />
-            <element signature="e#47196#47240#0" expanded="true" />
-            <element signature="e#49347#49376#0" expanded="true" />
-            <element signature="e#49838#49866#0" expanded="true" />
-            <element signature="e#49896#49929#0" expanded="true" />
-            <element signature="e#49966#49991#0" expanded="true" />
-            <element signature="e#50597#50621#0" expanded="true" />
-            <element signature="e#51803#51844#0" expanded="true" />
-            <element signature="e#54204#54232#0" expanded="true" />
-            <element signature="e#54331#54355#0" expanded="true" />
-            <element signature="e#55567#55619#0" expanded="true" />
-            <element signature="e#55752#55780#0" expanded="true" />
-            <element signature="e#55863#55882#0" expanded="true" />
-            <element signature="e#56458#56479#0" expanded="true" />
-            <element signature="e#57179#57200#0" expanded="true" />
-            <element signature="e#65764#65810#0" expanded="true" />
-            <element signature="e#65971#65992#0" expanded="true" />
-            <element signature="e#66075#66094#0" expanded="true" />
-            <element signature="e#66820#66841#0" expanded="true" />
-            <element signature="e#67860#67881#0" expanded="true" />
-            <marker date="1515258756820" expanded="false" signature="19309:19382" ph="() → { " />
-            <marker date="1515258756820" expanded="false" signature="19398:19430" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="23862:23986" ph="(dialog) → { " />
-            <marker date="1515258756820" expanded="false" signature="24012:24044" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="24149:24261" ph="(fractionComplete) → {" />
-            <marker date="1515258756820" expanded="false" signature="24685:24704" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25453:25513" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="25738:25765" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25927:25974" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="26940:27004" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27233:27264" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="27593:27657" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27896:27927" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28145:28209" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="28292:28323" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28478:28494" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="31677:31716" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="31787:31793" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="32161:32200" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="32267:32273" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="33049:33097" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="33783:33798" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="34576:34587" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34625:34631" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34678:34689" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34735:34741" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34778:34789" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34825:34831" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34876:34887" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34931:34937" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="40359:40546" ph="(dialog, whichButton) → { " />
-            <marker date="1515258756820" expanded="false" signature="40555:40595" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="43706:43753" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="44208:44320" ph="(frac) → {" />
-            <marker date="1515258756820" expanded="false" signature="44676:44707" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45468:45532" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="45759:45790" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45964:46024" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="46273:46300" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="46351:46366" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50013:50183" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50512:50539" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50643:50813" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50901:50928" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="51239:51316" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="52373:52392" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="54377:54547" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="54741:54768" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="55900:56062" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="56386:56409" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="56497:56659" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57106:57129" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57218:57380" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57608:57631" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57981:58058" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="58237:58256" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="58653:58723" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59008:59023" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59070:59140" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59206:59221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59270:59340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59705:59720" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59770:59840" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60206:60221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60270:60340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60734:60749" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60796:60866" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61252:61267" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61319:61389" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61626:61641" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61691:61761" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="62031:62046" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66112:66274" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="66748:66771" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66859:67021" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="67787:67810" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="67899:68061" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="68969:68992" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="69324:69388" ph="(Thread) run() → { " />
-            <marker date="1515258756820" expanded="false" signature="69431:69456" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="69753:69799" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="69875:69891" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="76458:76615" ph="(context, intent) → {" />
-            <marker date="1515258756820" expanded="false" signature="76867:76872" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="19861:19934" ph="() → { " />
+            <marker date="1515935762007" expanded="false" signature="19950:19982" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="20214:20234" ph="&quot;About Ringdroid&quot;" />
+            <marker date="1515935762007" expanded="false" signature="20260:20279" ph="&quot;Use Ringdroid to edit MP3, WAV, AAC, and AMR audio file...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="20312:20336" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="24277:24309" ph="&quot;Loading...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="24414:24538" ph="(dialog) → { " />
+            <marker date="1515935762007" expanded="false" signature="24564:24596" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="24701:24813" ph="(fractionComplete) → {" />
+            <marker date="1515935762007" expanded="false" signature="25237:25256" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="25360:25406" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="26005:26065" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="26189:26232" ph="&quot;Error reading file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="26290:26317" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="26391:26406" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="26479:26526" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="27051:27137" ph="&quot;Sorry, Ringdroid can't edit a file if it doesn't have a...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="27206:27293" ph="&quot;Sorry, Ringdroid is not yet able to edit files of type&quot;" />
+            <marker date="1515935762007" expanded="false" signature="27492:27556" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="27785:27816" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="28145:28209" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="28341:28384" ph="&quot;Error reading file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="28448:28479" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="28697:28761" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="28844:28875" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="29030:29046" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="29743:29790" ph="&quot;seconds&quot;" />
+            <marker date="1515935762007" expanded="false" signature="31801:31846" ph="&quot;Start marker&quot;" />
+            <marker date="1515935762007" expanded="false" signature="31945:31988" ph="&quot;End marker&quot;" />
+            <marker date="1515935762007" expanded="false" signature="32229:32268" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="32339:32345" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="32713:32752" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="32819:32825" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="33601:33649" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="34335:34350" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="34544:34581" ph="&quot;Stop&quot;" />
+            <marker date="1515935762007" expanded="false" signature="34723:34760" ph="&quot;Play&quot;" />
+            <marker date="1515935762007" expanded="false" signature="35128:35139" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35177:35183" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35230:35241" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35287:35293" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35330:35341" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35377:35383" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35428:35439" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35483:35489" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="39675:39694" ph="&quot;Unable to play this media file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40430:40482" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40630:40682" ph="&quot;Success&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40865:40889" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40907:41094" ph="(dialog, whichButton) → { " />
+            <marker date="1515935762007" expanded="false" signature="41103:41143" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="43389:43416" ph="&quot;Unable to find unique filename&quot;" />
+            <marker date="1515935762007" expanded="false" signature="44031:44062" ph="&quot;Saving...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="44254:44301" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="44756:44868" ph="(frac) → {" />
+            <marker date="1515935762007" expanded="false" signature="45224:45255" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="45569:45645" ph="&quot;Your SD card is full, there is not enough space to save...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="45749:45822" ph="&quot;Error writing file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="46016:46080" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="46307:46338" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="46512:46572" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="46821:46848" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="46899:46914" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="47312:47340" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47370:47394" ph="&quot;Can't save a file that small, try making it longer.&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47431:47455" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47744:47788" ph="&quot;Ringdroid&quot;" />
+            <marker date="1515935762007" expanded="false" signature="49895:49924" ph="&quot;Saved!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50386:50414" ph="&quot;Success&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50444:50477" ph="&quot;Saved! Make this your default notification?&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50514:50539" ph="&quot;Yes, please!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50561:50731" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="51060:51087" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="51145:51169" ph="&quot;No, thanks.&quot;" />
+            <marker date="1515935762007" expanded="false" signature="51191:51361" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="51449:51476" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="51787:51864" ph="handleMessage(response) → {" />
+            <marker date="1515935762007" expanded="false" signature="52351:52392" ph="&quot;Changed default ringtone&quot;" />
+            <marker date="1515935762007" expanded="false" signature="52921:52940" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="54752:54780" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="54879:54903" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="54925:55095" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="55289:55316" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="56115:56167" ph="&quot;Okay to send anonymous data about this error to Ringdro...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56300:56328" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56411:56430" ph="&quot;OK to send&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56448:56610" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="56934:56957" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="57006:57027" ph="&quot;Ask later&quot;" />
+            <marker date="1515935762007" expanded="false" signature="57045:57207" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="57654:57677" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="57727:57748" ph="&quot;Never&quot;" />
+            <marker date="1515935762007" expanded="false" signature="57766:57928" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="58156:58179" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="58529:58606" ph="handleMessage(response) → {" />
+            <marker date="1515935762007" expanded="false" signature="58785:58804" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59201:59271" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="59556:59571" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59618:59688" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="59754:59769" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59818:59888" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="60253:60268" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="60318:60388" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="60754:60769" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="60818:60888" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="61282:61297" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="61344:61414" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="61800:61815" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="61867:61937" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="62174:62189" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="62239:62309" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="62579:62594" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="66312:66358" ph="&quot;Okay to send anonymous data about the ringtones and oth...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66519:66540" ph="&quot;Share your data!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66623:66642" ph="&quot;OK to send&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66660:66822" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="67296:67319" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="67368:67389" ph="&quot;Ask later&quot;" />
+            <marker date="1515935762007" expanded="false" signature="67407:67569" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="68335:68358" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="68408:68429" ph="&quot;Never&quot;" />
+            <marker date="1515935762007" expanded="false" signature="68447:68609" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="69517:69540" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="69872:69936" ph="(Thread) run() → { " />
+            <marker date="1515935762007" expanded="false" signature="69979:70004" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="70301:70347" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="70423:70439" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="77006:77163" ph="(context, intent) → {" />
+            <marker date="1515935762007" expanded="false" signature="77415:77420" ph="}" />
           </folding>
         </state>
       </provider>
@@ -3331,7 +3009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3371,36 +3048,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/choose_contact.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3411,7 +3063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
           <caret line="426" column="37" lean-forward="true" selection-start-line="426" selection-start-column="37" selection-end-line="426" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3419,7 +3070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3427,23 +3077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3451,7 +3084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3459,7 +3091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3467,7 +3098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3475,7 +3105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3483,7 +3112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3491,7 +3119,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
@@ -3502,31 +3129,16 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidSelectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="124" column="47" lean-forward="true" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
-          <folding>
-            <element signature="e#5094#5390#0" expanded="true" />
-            <element signature="e#5389#5390#0" expanded="true" />
-            <element signature="e#5769#6640#0" expanded="true" />
-            <element signature="e#6639#6640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/android/view/KeyEvent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="114" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3534,80 +3146,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-404">
           <caret line="267" column="16" lean-forward="false" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/MarkerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="110" column="19" lean-forward="false" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapSoundFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1686">
-          <caret line="153" column="15" lean-forward="false" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
-          <folding>
-            <element signature="e#4699#4700#0" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapMP3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1849">
-          <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-          <folding>
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapWAV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="108" column="15" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1826#1827#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2342#2343#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3615,166 +3164,303 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-914">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-27/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <caret line="1736" column="16" lean-forward="false" selection-start-line="1736" selection-start-column="16" selection-end-line="1736" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3019">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapWAV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="175" column="50" lean-forward="false" selection-start-line="175" selection-start-column="21" selection-end-line="175" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9894#0" expanded="false" />
+            <element signature="e#1108#1109#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1216#1217#0" expanded="false" />
+            <element signature="e#1277#1278#0" expanded="false" />
+            <element signature="e#1715#1716#0" expanded="false" />
+            <element signature="e#1748#1749#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+            <element signature="e#1826#1827#0" expanded="false" />
+            <element signature="e#1864#1865#0" expanded="false" />
+            <element signature="e#1900#1901#0" expanded="false" />
+            <element signature="e#1935#1936#0" expanded="false" />
+            <element signature="e#1968#1969#0" expanded="false" />
+            <element signature="e#2004#2005#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
+            <element signature="e#2075#2076#0" expanded="false" />
+            <element signature="e#2115#2116#0" expanded="false" />
+            <element signature="e#2153#2154#0" expanded="false" />
+            <element signature="e#2210#2211#0" expanded="false" />
+            <element signature="e#2244#2245#0" expanded="false" />
+            <element signature="e#2278#2279#0" expanded="false" />
+            <element signature="e#2310#2311#0" expanded="false" />
+            <element signature="e#2342#2343#0" expanded="false" />
+            <element signature="e#2377#2378#0" expanded="false" />
+            <element signature="e#2405#2406#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapSoundFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="152" column="17" lean-forward="false" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+          <folding>
+            <element signature="e#4886#4887#0" expanded="false" />
+            <element signature="e#4913#4914#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/soundfile/CheapMP3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidSelectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="276" column="16" lean-forward="false" selection-start-line="276" selection-start-column="16" selection-end-line="276" selection-end-column="16" />
+        <state relative-caret-position="-1503">
+          <caret line="133" column="35" lean-forward="false" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
           <folding>
-            <element signature="e#6100#6101#0" expanded="true" />
-            <element signature="e#6135#6136#0" expanded="true" />
-            <element signature="e#8794#8795#0" expanded="true" />
-            <element signature="e#8824#8825#0" expanded="true" />
-            <element signature="e#8864#8865#0" expanded="true" />
-            <element signature="e#8898#8899#0" expanded="true" />
+            <element signature="e#3810#3944#0" expanded="true" />
+            <element signature="e#3943#3944#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-27/android/view/KeyEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="2757" column="11" lean-forward="false" selection-start-line="2757" selection-start-column="11" selection-end-line="2757" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/MarkerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/RingdroidEditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1832">
-          <caret line="914" column="37" lean-forward="false" selection-start-line="914" selection-start-column="26" selection-end-line="914" selection-end-column="37" />
+        <state relative-caret-position="121">
+          <caret line="630" column="0" lean-forward="false" selection-start-line="630" selection-start-column="0" selection-end-line="630" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7995#8016#0" expanded="true" />
-            <element signature="e#9071#9096#0" expanded="true" />
-            <element signature="e#9268#9293#0" expanded="true" />
-            <element signature="e#11935#11953#0" expanded="true" />
-            <element signature="e#12042#12061#0" expanded="true" />
-            <element signature="e#12151#12170#0" expanded="true" />
-            <element signature="e#19662#19682#0" expanded="true" />
-            <element signature="e#19708#19727#0" expanded="true" />
-            <element signature="e#19760#19784#0" expanded="true" />
-            <element signature="e#23725#23757#0" expanded="true" />
-            <element signature="e#24808#25854#0" expanded="true" />
-            <element signature="e#25637#25680#0" expanded="true" />
-            <element signature="e#25853#25854#0" expanded="true" />
-            <element signature="e#26499#26585#0" expanded="true" />
-            <element signature="e#26654#26741#0" expanded="true" />
-            <element signature="e#27789#27832#0" expanded="true" />
-            <element signature="e#29191#29238#0" expanded="true" />
-            <element signature="e#31249#31294#0" expanded="true" />
-            <element signature="e#31393#31436#0" expanded="true" />
-            <element signature="e#33992#34029#0" expanded="true" />
-            <element signature="e#34171#34208#0" expanded="true" />
-            <element signature="e#39127#39146#0" expanded="true" />
-            <element signature="e#39882#39934#0" expanded="true" />
-            <element signature="e#40082#40134#0" expanded="true" />
-            <element signature="e#40317#40341#0" expanded="true" />
-            <element signature="e#42841#42868#0" expanded="true" />
-            <element signature="e#43483#43514#0" expanded="true" />
-            <element signature="e#45021#45097#0" expanded="true" />
-            <element signature="e#45201#45274#0" expanded="true" />
-            <element signature="e#46764#46792#0" expanded="true" />
-            <element signature="e#46822#46846#0" expanded="true" />
-            <element signature="e#46883#46907#0" expanded="true" />
-            <element signature="e#47196#47240#0" expanded="true" />
-            <element signature="e#49347#49376#0" expanded="true" />
-            <element signature="e#49838#49866#0" expanded="true" />
-            <element signature="e#49896#49929#0" expanded="true" />
-            <element signature="e#49966#49991#0" expanded="true" />
-            <element signature="e#50597#50621#0" expanded="true" />
-            <element signature="e#51803#51844#0" expanded="true" />
-            <element signature="e#54204#54232#0" expanded="true" />
-            <element signature="e#54331#54355#0" expanded="true" />
-            <element signature="e#55567#55619#0" expanded="true" />
-            <element signature="e#55752#55780#0" expanded="true" />
-            <element signature="e#55863#55882#0" expanded="true" />
-            <element signature="e#56458#56479#0" expanded="true" />
-            <element signature="e#57179#57200#0" expanded="true" />
-            <element signature="e#65764#65810#0" expanded="true" />
-            <element signature="e#65971#65992#0" expanded="true" />
-            <element signature="e#66075#66094#0" expanded="true" />
-            <element signature="e#66820#66841#0" expanded="true" />
-            <element signature="e#67860#67881#0" expanded="true" />
-            <marker date="1515258756820" expanded="false" signature="19309:19382" ph="() → { " />
-            <marker date="1515258756820" expanded="false" signature="19398:19430" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="23862:23986" ph="(dialog) → { " />
-            <marker date="1515258756820" expanded="false" signature="24012:24044" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="24149:24261" ph="(fractionComplete) → {" />
-            <marker date="1515258756820" expanded="false" signature="24685:24704" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25453:25513" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="25738:25765" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="25927:25974" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="26940:27004" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27233:27264" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="27593:27657" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="27896:27927" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28145:28209" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="28292:28323" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="28478:28494" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="31677:31716" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="31787:31793" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="32161:32200" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="32267:32273" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="33049:33097" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="33783:33798" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="34576:34587" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34625:34631" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34678:34689" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34735:34741" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34778:34789" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34825:34831" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="34876:34887" ph=" { " />
-            <marker date="1515258756820" expanded="false" signature="34931:34937" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="40359:40546" ph="(dialog, whichButton) → { " />
-            <marker date="1515258756820" expanded="false" signature="40555:40595" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="43706:43753" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="44208:44320" ph="(frac) → {" />
-            <marker date="1515258756820" expanded="false" signature="44676:44707" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45468:45532" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="45759:45790" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="45964:46024" ph="() → {" />
-            <marker date="1515258756820" expanded="false" signature="46273:46300" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="46351:46366" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50013:50183" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50512:50539" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="50643:50813" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="50901:50928" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="51239:51316" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="52373:52392" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="54377:54547" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="54741:54768" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="55900:56062" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="56386:56409" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="56497:56659" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57106:57129" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57218:57380" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="57608:57631" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="57981:58058" ph="handleMessage(response) → {" />
-            <marker date="1515258756820" expanded="false" signature="58237:58256" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="58653:58723" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59008:59023" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59070:59140" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59206:59221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59270:59340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="59705:59720" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="59770:59840" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60206:60221" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60270:60340" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="60734:60749" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="60796:60866" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61252:61267" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61319:61389" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="61626:61641" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="61691:61761" ph="(sender) → {" />
-            <marker date="1515258756820" expanded="false" signature="62031:62046" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66112:66274" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="66748:66771" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="66859:67021" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="67787:67810" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="67899:68061" ph="(dialog, whichButton) → {" />
-            <marker date="1515258756820" expanded="false" signature="68969:68992" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="69324:69388" ph="(Thread) run() → { " />
-            <marker date="1515258756820" expanded="false" signature="69431:69456" ph=" }" />
-            <marker date="1515258756820" expanded="false" signature="69753:69799" ph="(Thread) run() → {" />
-            <marker date="1515258756820" expanded="false" signature="69875:69891" ph="}" />
-            <marker date="1515258756820" expanded="false" signature="76458:76615" ph="(context, intent) → {" />
-            <marker date="1515258756820" expanded="false" signature="76867:76872" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="19861:19934" ph="() → { " />
+            <marker date="1515935762007" expanded="false" signature="19950:19982" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="20214:20234" ph="&quot;About Ringdroid&quot;" />
+            <marker date="1515935762007" expanded="false" signature="20260:20279" ph="&quot;Use Ringdroid to edit MP3, WAV, AAC, and AMR audio file...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="20312:20336" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="24277:24309" ph="&quot;Loading...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="24414:24538" ph="(dialog) → { " />
+            <marker date="1515935762007" expanded="false" signature="24564:24596" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="24701:24813" ph="(fractionComplete) → {" />
+            <marker date="1515935762007" expanded="false" signature="25237:25256" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="25360:25406" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="26005:26065" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="26189:26232" ph="&quot;Error reading file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="26290:26317" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="26391:26406" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="26479:26526" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="27051:27137" ph="&quot;Sorry, Ringdroid can't edit a file if it doesn't have a...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="27206:27293" ph="&quot;Sorry, Ringdroid is not yet able to edit files of type&quot;" />
+            <marker date="1515935762007" expanded="false" signature="27492:27556" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="27785:27816" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="28145:28209" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="28341:28384" ph="&quot;Error reading file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="28448:28479" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="28697:28761" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="28844:28875" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="29030:29046" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="29743:29790" ph="&quot;seconds&quot;" />
+            <marker date="1515935762007" expanded="false" signature="31801:31846" ph="&quot;Start marker&quot;" />
+            <marker date="1515935762007" expanded="false" signature="31945:31988" ph="&quot;End marker&quot;" />
+            <marker date="1515935762007" expanded="false" signature="32229:32268" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="32339:32345" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="32713:32752" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="32819:32825" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="33601:33649" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="34335:34350" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="34544:34581" ph="&quot;Stop&quot;" />
+            <marker date="1515935762007" expanded="false" signature="34723:34760" ph="&quot;Play&quot;" />
+            <marker date="1515935762007" expanded="false" signature="35128:35139" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35177:35183" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35230:35241" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35287:35293" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35330:35341" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35377:35383" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="35428:35439" ph=" { " />
+            <marker date="1515935762007" expanded="false" signature="35483:35489" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="39675:39694" ph="&quot;Unable to play this media file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40430:40482" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40630:40682" ph="&quot;Success&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40865:40889" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="40907:41094" ph="(dialog, whichButton) → { " />
+            <marker date="1515935762007" expanded="false" signature="41103:41143" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="43389:43416" ph="&quot;Unable to find unique filename&quot;" />
+            <marker date="1515935762007" expanded="false" signature="44031:44062" ph="&quot;Saving...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="44254:44301" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="44756:44868" ph="(frac) → {" />
+            <marker date="1515935762007" expanded="false" signature="45224:45255" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="45569:45645" ph="&quot;Your SD card is full, there is not enough space to save...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="45749:45822" ph="&quot;Error writing file&quot;" />
+            <marker date="1515935762007" expanded="false" signature="46016:46080" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="46307:46338" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="46512:46572" ph="() → {" />
+            <marker date="1515935762007" expanded="false" signature="46821:46848" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="46899:46914" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="47312:47340" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47370:47394" ph="&quot;Can't save a file that small, try making it longer.&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47431:47455" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="47744:47788" ph="&quot;Ringdroid&quot;" />
+            <marker date="1515935762007" expanded="false" signature="49895:49924" ph="&quot;Saved!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50386:50414" ph="&quot;Success&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50444:50477" ph="&quot;Saved! Make this your default notification?&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50514:50539" ph="&quot;Yes, please!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="50561:50731" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="51060:51087" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="51145:51169" ph="&quot;No, thanks.&quot;" />
+            <marker date="1515935762007" expanded="false" signature="51191:51361" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="51449:51476" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="51787:51864" ph="handleMessage(response) → {" />
+            <marker date="1515935762007" expanded="false" signature="52351:52392" ph="&quot;Changed default ringtone&quot;" />
+            <marker date="1515935762007" expanded="false" signature="52921:52940" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="54752:54780" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="54879:54903" ph="&quot;OK&quot;" />
+            <marker date="1515935762007" expanded="false" signature="54925:55095" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="55289:55316" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="56115:56167" ph="&quot;Okay to send anonymous data about this error to Ringdro...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56300:56328" ph="&quot;Error&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56411:56430" ph="&quot;OK to send&quot;" />
+            <marker date="1515935762007" expanded="false" signature="56448:56610" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="56934:56957" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="57006:57027" ph="&quot;Ask later&quot;" />
+            <marker date="1515935762007" expanded="false" signature="57045:57207" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="57654:57677" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="57727:57748" ph="&quot;Never&quot;" />
+            <marker date="1515935762007" expanded="false" signature="57766:57928" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="58156:58179" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="58529:58606" ph="handleMessage(response) → {" />
+            <marker date="1515935762007" expanded="false" signature="58785:58804" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59201:59271" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="59556:59571" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59618:59688" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="59754:59769" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="59818:59888" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="60253:60268" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="60318:60388" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="60754:60769" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="60818:60888" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="61282:61297" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="61344:61414" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="61800:61815" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="61867:61937" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="62174:62189" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="62239:62309" ph="(sender) → {" />
+            <marker date="1515935762007" expanded="false" signature="62579:62594" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="66312:66358" ph="&quot;Okay to send anonymous data about the ringtones and oth...&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66519:66540" ph="&quot;Share your data!&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66623:66642" ph="&quot;OK to send&quot;" />
+            <marker date="1515935762007" expanded="false" signature="66660:66822" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="67296:67319" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="67368:67389" ph="&quot;Ask later&quot;" />
+            <marker date="1515935762007" expanded="false" signature="67407:67569" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="68335:68358" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="68408:68429" ph="&quot;Never&quot;" />
+            <marker date="1515935762007" expanded="false" signature="68447:68609" ph="(dialog, whichButton) → {" />
+            <marker date="1515935762007" expanded="false" signature="69517:69540" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="69872:69936" ph="(Thread) run() → { " />
+            <marker date="1515935762007" expanded="false" signature="69979:70004" ph=" }" />
+            <marker date="1515935762007" expanded="false" signature="70301:70347" ph="(Thread) run() → {" />
+            <marker date="1515935762007" expanded="false" signature="70423:70439" ph="}" />
+            <marker date="1515935762007" expanded="false" signature="77006:77163" ph="(context, intent) → {" />
+            <marker date="1515935762007" expanded="false" signature="77415:77420" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ringdroid/WaveformView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+          <folding>
+            <element signature="e#4773#5022#0" expanded="true" />
+            <element signature="e#5021#5022#0" expanded="true" />
+            <element signature="e#6963#6964#0" expanded="true" />
+            <element signature="e#6998#6999#0" expanded="true" />
+            <element signature="e#7031#7032#0" expanded="true" />
+            <element signature="e#7064#7065#0" expanded="true" />
+            <element signature="e#7298#7299#0" expanded="true" />
+            <element signature="e#7337#7338#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
+            <element signature="e#7876#7877#0" expanded="true" />
+            <element signature="e#8353#8354#0" expanded="true" />
+            <element signature="e#8403#8404#0" expanded="true" />
+            <element signature="e#9526#9527#0" expanded="true" />
+            <element signature="e#9564#9565#0" expanded="true" />
+            <element signature="e#9591#9592#0" expanded="true" />
+            <element signature="e#9627#9628#0" expanded="true" />
+            <element signature="e#9657#9658#0" expanded="true" />
+            <element signature="e#9687#9688#0" expanded="true" />
+            <element signature="e#9727#9728#0" expanded="true" />
+            <element signature="e#9761#9762#0" expanded="true" />
+            <element signature="e#9819#9820#0" expanded="true" />
+            <element signature="e#9855#9856#0" expanded="true" />
           </folding>
         </state>
       </provider>
